@@ -1,0 +1,58 @@
+
+
+
+
+ What is $a+b+c+d$ if \[\left[ \begin{array}{cc}
+3 & 0  \\
+2 & 1 \\
+\end{array} \right]+ \left[ \begin{array}{cc}
+4 & 1  \\
+2 & 3 \\
+\end{array}\right]= \left[ \begin{array}{cc}
+a & b  \\
+c & d \\
+\end{array} \right]?\] 
+
+
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item    $10$
+		\item   $11$
+		\item  $13$
+		\item    $16$%
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item    $10$
+		\item   $11$
+		\item  $13$
+		\addtocounter{enumii}{1}
+		\item   $15$
+		\item    $16$%
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item    $10$
+		\item   $11$
+		\item  $13$
+		\item   $15$
+		\item    $16$%
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+    $16$%
+
+\else
+\fi
+

@@ -1,0 +1,28 @@
+\documentclass[border=0pt]{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{helvet}
+
+\renewcommand{\familydefault}{\sfdefault}
+\begin{document}
+
+%\newcommand{\lspace}{\kern 0.1em}
+\newcommand{\lspace}{\kern 0.075em}
+
+\definecolor{bardark}{RGB}{99,100,99}
+\begin{tikzpicture}
+	\fill[fill=bardark,inner sep=0,outer sep=0] (0,0) -- 
+		++(2.1,0) -- 
+		++(0,-0.1) -- 
+		++(0.4,0.35) --
+		++(-0.4,0.35) --
+		++(0,-0.1) --
+		++(-2.1,0) --
+		cycle;
+	\node[anchor=west,inner sep=0,outer sep=0] at (0.2,0.25) 
+		{\small \color{white} \textbf{C{\lspace}O{\lspace}N{\lspace}T{\lspace}I{\lspace}N{\lspace}U{\lspace}E}}; 
+\end{tikzpicture}
+
+
+\end{document}

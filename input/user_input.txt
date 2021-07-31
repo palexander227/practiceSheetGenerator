@@ -1,0 +1,32 @@
+# ++++++++++++++++++++++++++++++++++++++++++++++++
+# User input
+# ++++++++++++++++++++++++++++++++++++++++++++++++
+
+# What kind of test would you like to create?
+#
+# Choices:
+#   ACT
+#   SAT
+
+flavor = SAT
+
+
+# What kind of practice sheet would you like to create?
+#
+# Choices:
+#   in-class (10 questions)
+#   homework (60 or 58 questions for ACT or SAT, respectively)
+
+kind = in-class
+
+
+# Please provide the name of the file that contains your selection
+# of questions.
+# Warning: Make sure you provide the correct amount and order for the
+# selection you made above!
+
+infile = my_list2.txt
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++
+# End user input
+# ++++++++++++++++++++++++++++++++++++++++++++++++

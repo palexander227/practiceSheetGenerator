@@ -1,0 +1,60 @@
+
+
+ 
+Let $\overline{BC}$ be parallel to $\overline{DE}$.  Moreover, $BC=5$ and $DE=10$.  Then what is the ratio of $AB$ to $BD$? 
+\begin{center}
+\begin{tikzpicture}
+\draw[>=latex,-](0,0)--(4,5)--(6,0)--cycle;
+\draw[>=latex,-](2,2.5)--(5,2.5);
+\draw node[left] at (0,0){$D$};
+\draw node[above] at (4,5){$A$};
+\draw node[right] at (6,0){$E$};
+\draw node[left] at (2,2.5){$B$};
+\draw node[right] at (5,2.5){$C$};
+
+    
+\end{tikzpicture}
+\end{center}
+
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item   $1$%
+		\item    $2$   
+		\item $3$ 
+		\item  $4$ 
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   $1$%
+		\item    $2$   
+		\item $3$ 
+		\addtocounter{enumii}{1}
+		\item  $4$ 
+		\item  Cannot be determined
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   $1$%
+		\item    $2$   
+		\item $3$ 
+		\item  $4$ 
+		\item  Cannot be determined
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+   $1$%
+		
+\else
+\fi
+

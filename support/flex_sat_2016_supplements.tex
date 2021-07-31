@@ -1,0 +1,274 @@
+%\usepackage{pst-plot}
+\usepackage[pdftex]{graphicx}
+\usepackage{pgfplots}
+\usepackage{multicol}
+\usepackage{tabularx,booktabs}
+%\usepackage{wallpaper}
+\usepackage{tikz-3dplot}
+%\usepackage{pstricks}
+\usepackage{amsfonts}
+\usepackage{bm}
+%\usepackage{ragged2e}
+\usepackage{quoting}
+%\usepackage{comment}
+%\usepackage{qtree}
+\usepackage{xcolor,colortbl}
+%\usepackage[all]{background}
+\usepackage{calc}
+\usepackage{multirow}
+
+\usepackage{gensymb}
+\usepackage{yhmath}
+\usepackage[inline]{enumitem}
+
+\usepackage{pbox}
+\usetikzlibrary{intersections}
+\usepgfplotslibrary{fillbetween}
+
+
+
+\newif\ifsat
+%\def\sat{\global\sattrue}
+
+\newif\ifact
+\newif\ifacteven
+\newif\ifactodd
+
+%\def\act{\global\acttrue}
+%\def\acteven{\global\acteventrue}
+%\def\actodd{\global\actoddtrue}
+
+\newif\ifcalcon
+\newif\ifcalcoff
+%\def\calcon{\global\calcofffalse \global\calcontrue}
+%\def\calcoff{\global\calconfalse \global\calcofftrue}
+
+\newif\ifgridin
+%\def\gridin{\global\gridintrue}
+
+\newif\ifnocontinue
+
+%% Space between header and text
+%\setlength{\headheight}{14mm} 
+%\setlength{\headsep}{14mm} 
+
+%% Space between top of page and header: 1 inch + voffset
+%\setlength{\voffset}{-0.5in} 
+
+
+%%\usepackage{fourier}
+%\setlength{\oddsidemargin}{53pt}
+%\setlength{\evensidemargin}{53pt}
+\usepackage{framed}
+\usepackage{cancel}
+%\newcommand*{\Scale}[2][4]{\scalebox{#1}{$#2$}}%
+%\newcommand*{\Resize}[2]{\resizebox{#1}{!}{$#2$}}%
+%    \usepackage{xcolor}
+%    \usepackage{framed}
+%    \usepackage{makeidx}
+%    \makeindex
+%    \usepackage{arcs}
+%    \usetikzlibrary{shapes.geometric}
+    
+    %\setlength\columnsep{12mm} 
+    
+    \colorlet{shadecolor}{gray!20}
+  %  \newtheorem{theorem}{Theorem}
+%    \newenvironment{theo}
+%      {\begin{shaded}\begin{theorem}}
+%      {\end{theorem}\end{shaded}}
+   % \begin{theo}
+%    Some important theorem.
+%    \end{theo}
+ 
+\usepackage{units}
+
+%\setlength{\marginparwidth}{57pt}
+%\setlength{\footskip}{30pt}
+%\addtolength{\oddsidemargin}{-1.1in}
+%    \addtolength{\evensidemargin}{-1.1in}
+%    \addtolength{\textwidth}{1.75in}
+%
+%    \addtolength{\topmargin}{-.5in}
+%    \addtolength{\textheight}{1.75in}
+%\usepackage{pstricks,pst-node,pst-tree}
+\include{longdiv}
+\usepackage{ulem}
+\usepackage{amsmath}
+\newcommand{\msout}[1]{\text{\sout{\ensuremath{#1}}}}
+
+\usetikzlibrary{decorations.fractals}
+\usepackage{tikz}
+
+\usepackage{amsthm}
+\usepackage{relsize}
+
+
+%\usepackage{enumitem}
+
+
+
+%\usepackage{tree-dvips}
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
+
+%\newcommand{\rdots}{\mathinner{%
+%  \mkern1mu\raise1pt\hbox{.}%
+%  \mkern2mu\raise4pt\hbox{.}%
+%  \mkern2mu\raise7pt\vbox{\kern7pt\hbox{.}}\mkern1mu}} 
+
+
+%\newenvironment{RCText}[1][2em]
+%  {\begin{quoting}[leftmargin=#1,rightmargin=#1]\RaggedRight}
+%  {\end{quoting}}
+
+%\newcommand\Tstrut{\rule{0pt}{2.6ex}}         % = `top' strut
+%\newcommand\Bstrut{\rule[-0.9ex]{0pt}{0pt}} 
+
+
+
+\usepackage{lipsum}
+\usepackage{tikz}
+
+\usetikzlibrary{decorations.shapes}
+%\tikzset{decorate sep/.style 2 args={decorate,decoration={shape backgrounds,shape=circle,shape size=#1,shape sep=#2}}}
+
+%\newcommand{\MyGraphicLogo}{% For imported graphic logo
+%\begin{tikzpicture}[remember picture,overlay,yshift=-2cm, xshift=2cm]
+%  \node at (8.6,0) {\includegraphics{header_no_calc}};
+% \end{tikzpicture}
+%% Separation between columns
+% \begin{tikzpicture}[remember picture,overlay,yshift=-2cm, xshift=2cm]
+%   \draw[decorate sep={0.5pt}{2pt},fill, color=black] (8.4,-1.55)--(8.4,-24);
+% \end{tikzpicture}
+%}
+%
+%
+%
+%
+%
+%
+%\SetBgContents{\MyGraphicLogo}% Select included image
+%%\SetBgContents{\MyTikzLogo}% Select tikz picture
+%\SetBgPosition{current page.north west}% Select location
+%\SetBgOpacity{1.0}% Select opacity
+%\SetBgAngle{0.0}% Select roation of logo
+%\SetBgScale{1.0}% Select scale factor of logo
+
+
+\usepackage{fancyhdr}
+
+%\chead{\includegraphics{sat_header_no_calculator.pdf}}
+
+\fancyhead{} % clear all header fields
+\fancyhead[CE]{%
+	\ifcalcoff\includegraphics{support/sat_header_no_calculator.pdf}\else\fi
+	\ifcalcon\includegraphics{support/sat_header_calculator.pdf}\else\fi
+	}
+\fancyhead[CO]{%
+	\ifcalcoff\includegraphics{support/sat_header_no_calculator.pdf}\else\fi
+	\ifcalcon\includegraphics{support/sat_header_calculator.pdf}\else\fi
+	}
+\fancyfoot{} % clear all footer fields
+\fancyfoot[C]{\textbf{\thepage}}
+\fancyfoot[RE]{\ifnocontinue\else\includegraphics{support/sat_footer_continuearrow.pdf}\fi}
+\fancyfoot[RO]{\ifnocontinue\else\includegraphics{support/sat_footer_continuearrow.pdf}\fi}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\AtEndDocument{\rfoot{}}
+
+
+\global\newcount\satquestionnumber\relax
+% change question number in text by setting:
+% e.g., \satquestionnumber=23
+
+\usepackage{adjustbox}
+\newcommand\satquestion{\global\advance\satquestionnumber 1\relax%
+%
+%\fbox{
+%to remove empty space around tikzpicture, check by wrapping in \fbox
+\trimbox{1mm 2mm 1mm 2mm}{% left bottom right top
+\begin{tikzpicture}
+	\draw[color=gray!60, fill=gray!60] (0,0) rectangle (8.5,.4) ;    
+	\draw[color=black, fill=black] (0,0) rectangle (.6,.4) ; 
+	\draw node[color=white] at (.3,.2) {\the\satquestionnumber};              
+\end{tikzpicture}%
+%}%
+}%
+\\}
+
+
+
+\tikzset{decorate sep/.style 2 args=
+{decorate,decoration={shape backgrounds,shape=circle,shape size=#1,shape sep=#2}}}
+
+%\setlength{\columnseprule}{1pt}
+
+
+%\def\columnseprulecolor{\color{blue}}
+
+%\def\columnseprulecolor{\vspace*{20mm}\includegraphics[angle=90]{colseprule.pdf}}
+
+%\def\columnseprulecolor{%
+%\rotatebox{90}{\makebox[-20mm][c]{
+% \begin{tikzpicture}[yshift=0cm, xshift=0cm]
+%  \includegraphics{colseprule.pdf};
+% \end{tikzpicture}}}}
+
+\makeatletter
+\def\columnseprulecolor\vrule\@width\columnseprule{%
+\vbox to \ht\mult@rightbox{\leaders\vbox{\kern2pt\hbox{.}\kern2pt}\vfill}}
+\makeatother
+
+
+%\def\columnseprulecolor{%
+%\rotatebox{90}{\makebox[195mm][c]{
+% \begin{tikzpicture}[yshift=0cm, xshift=0cm]
+%  \draw[decorate sep={1pt}{2pt},fill,inner sep=0,outer sep=0] (0,0) -- (21.4,0);
+% \end{tikzpicture}}}}
+    
+    
+
+
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{mydef}{Definition}
+\newtheorem{mydef2}{Definition}[section]
+\newtheorem*{thm2}{Theorem}
+\newtheorem*{def2}{Definition}
+\newtheorem*{lem2}{Lemma}
+\newtheorem*{ex2}{Example}
+\newtheorem*{cor2}{Corollary}
+\newtheorem*{con2}{Conjecture (Continuum Hypothesis)}
+\newtheorem*{thmcs}{Theorem (Cauchy-Schwarz Inequality)}
+\newtheorem*{thmift}{Theorem (Inverse Function Theorem)}
+\newtheorem*{thmusl}{Theorem (Under-determined Systems Lemma)}
+\newtheorem*{thmldl}{Theorem (Linear Dependence Lemma)}
+\newtheorem*{thmrol}{Theorem (Rolle's Theorem)}
+\newtheorem*{thmmvt}{Theorem (Mean Value Theorem)}
+\newtheorem*{thmnth}{Theorem (N-th term test)}
+\newtheorem*{thmmcp}{Theorem (Monotone Convergence Property)}
+\newtheorem*{thmst}{Theorem (Sandwich Theorem)}
+\newtheorem*{thmbw}{Theorem (Bolzano-Weierstrass)}
+\newtheorem*{thmcmt}{Theorem (Contraction-Mapping Theorem)}
+\newtheorem*{thmtt}{Theorem (Taylor's Theorem)}
+\newtheorem*{thmcbpf}{Theorem (Change of Base-Point, Finite)}
+\newtheorem*{thmcbpt}{Theorem (Change of Base-Point)}
+\newtheorem*{thmlmt}{Theorem (Lagrange Multiplier Theorem)}
+\newtheorem*{thmimft}{Theorem (Implicit Function Theorem)}
+\newtheorem*{tri}{Theorem (Triangle Inequality)}
+\newtheorem*{lemcs}{Lemma (Cauchy-Schwarz for $n=2$)}
+\newtheorem*{thmbas}{Theorem (Basis Theorem)}
+\newtheorem*{thmex}{Theorem (Basis Extension Theorem)}
+\newtheorem*{thmrn}{Theorem (Rank-Nullity Theorem)}
+\newtheorem*{thmhw}{Homework}
+\newtheorem*{thmfc}{Theorem (First Claim)}
+\newtheorem*{thmsc}{Theorem (Second Claim)}
+\newtheorem*{thmbp}{Theorem (Bad Proof)}
+\newtheorem*{thmgsp}{Theorem (Gram-Schmidt Process)}
+\newtheorem*{thmsdt}{Theorem (Second Derivative Test)}
+\newtheorem*{thmfta}{Theorem (Fundamental Theorem of Algebra)}
+\newtheorem*{exdiv}{Example (Division Algorithm)}%\thispagestyle{empty}
+
+
+

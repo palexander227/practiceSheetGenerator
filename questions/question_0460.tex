@@ -1,0 +1,47 @@
+
+
+
+  Suppose $a$ and $b$ are integers and $a^{2}-b^{2}$ is odd.  What must be true?  
+
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item   $a+b$ is even
+		\item  $ab$ is odd
+		\item $ab$ is even%
+		\item  None of the above
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   $a+b$ is even
+		\item  $ab$ is odd
+		\item $a-b$ is even
+		\addtocounter{enumii}{1}
+		\item $ab$ is even%
+		\item  None of the above
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   $a+b$ is even
+		\item  $ab$ is odd
+		\item $a-b$ is even
+		\item $ab$ is even%
+		\item  None of the above
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+ $ab$ is even%
+		
+\else
+\fi
+

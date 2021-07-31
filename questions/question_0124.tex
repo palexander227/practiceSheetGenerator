@@ -1,0 +1,45 @@
+
+
+ Which one of the numbers below is the same as double its square? %1=2x
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item   $.25$
+		\item  $.5$%
+		\item  $1$
+		\item   $4$
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   $.25$
+		\item  $.5$%
+		\item  $1$
+		\addtocounter{enumii}{1}
+		\item  $2$
+		\item   $4$
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   $.25$
+		\item  $.5$%
+		\item  $1$
+		\item  $2$
+		\item   $4$
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+  $.5$%
+		
+\else
+\fi
+

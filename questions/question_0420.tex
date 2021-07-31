@@ -1,0 +1,45 @@
+
+
+  If $a<b$, then which of the following must be true?
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item    $a^{2}<b^{2}$
+		\item $ab<a$ %
+		\item $ab>a$
+		\item  $-b+1<-a+1$ 
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item    $a^{2}<b^{2}$
+		\item  $\sqrt{a}<\sqrt{b}$ 
+		\item $ab<a$ %
+		\addtocounter{enumii}{1}
+		\item $ab>a$
+		\item  $-b+1<-a+1$ 
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item    $a^{2}<b^{2}$
+		\item  $\sqrt{a}<\sqrt{b}$ 
+		\item $ab<a$ %
+		\item $ab>a$
+		\item  $-b+1<-a+1$ 
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+ $ab<a$ %
+		
+\else
+\fi
+

@@ -1,0 +1,45 @@
+
+
+   How many positive factors does $49$ have?
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item   $1$
+		\item  $2$
+		\item $3$%
+		\item  $5$
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   $1$
+		\item  $2$
+		\item $3$%
+		\addtocounter{enumii}{1}
+		\item $4$
+		\item  $5$
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   $1$
+		\item  $2$
+		\item $3$%
+		\item $4$
+		\item  $5$
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+ $3$%
+		
+\else
+\fi
+

@@ -1,0 +1,53 @@
+Which answer is closest to the length of the ladder if the angle formed between the ground and ladder is $62\degree$?
+
+\begin{tikzpicture} 
+\draw[very thin](0,0)--(3,0); 
+\draw(2,0)--(2,3); 
+\draw(1.5,0)--(2,2.1); 
+\draw(1.8,1.26)node[anchor=south east, rotate=75]{ladder}; 
+\draw[very thick](1.5,0)--(2,0); 
+\draw(1.75,0)node[anchor=north]{5 ft}; 
+\draw(2.2,1)node[anchor=west, rotate = 90]{building}; 
+\draw(2,.1)rectangle(2.1,0); 
+\end{tikzpicture} 
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item   $2.3 ft$
+		\item  $4.4 ft$ 
+		\item  $5.7 ft$ 
+		\item  $10.7 ft$ % 
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   $2.3 ft$
+		\item  $4.4 ft$ 
+		\item  $5.7 ft$ 
+		\addtocounter{enumii}{1}
+		\item  $10.7 ft$ %
+		\item  $11.2 ft$ 
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   $2.3 ft$
+		\item  $4.4 ft$ 
+		\item  $5.7 ft$ 
+		\item  $10.7 ft$ %
+		\item  $11.2 ft$ 
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+  $10.7 ft$ % 
+
+\else
+\fi
+

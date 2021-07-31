@@ -1,0 +1,48 @@
+
+
+
+
+
+ Which of the following is the greatest?
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item   $(\frac{1}{2})^{-2}$%
+		\item  $(\frac{1}{2})^{0}$
+		\item  $2^{-1}$
+		\item  $2^{-2}$
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   $(\frac{1}{2})^{-2}$%
+		\item  $(\frac{1}{2})^{0}$
+		\item  $2^{-1}$
+		\addtocounter{enumii}{1}
+		\item  $2^{-2}$
+		\item  $(-2)^{3}$
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   $(\frac{1}{2})^{-2}$%
+		\item  $(\frac{1}{2})^{0}$
+		\item  $2^{-1}$
+		\item  $2^{-2}$
+		\item  $(-2)^{3}$
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+   $(\frac{1}{2})^{-2}$%
+		
+\else
+\fi
+

@@ -1,0 +1,44 @@
+
+ Evaluate $2^{-2}+(-2)^{2}$
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item   $4$
+		\item  $4.25$%
+		\item  $4.5$
+		\item  $5$
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   $4$
+		\item  $4.25$%
+		\item  $4.5$
+		\addtocounter{enumii}{1}
+		\item  $5$
+		\item   $8$
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   $4$
+		\item  $4.25$%
+		\item  $4.5$
+		\item  $5$
+		\item   $8$
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+  $4.25$%
+		
+\else
+\fi
+

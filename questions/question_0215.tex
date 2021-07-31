@@ -1,0 +1,55 @@
+
+
+
+
+  What is the $100th$ term of the following sequence?
+\begin{eqnarray*}
+a_1 && = 4\\
+a_{n} && = \left\{ \begin{array}{l l}
+    \frac{a_{n-1}}{-2} & \quad \text{if $n$ is even}\\
+    2a_{n-1} & \quad \text{if $n$ is odd and n} > 1\\
+  \end{array} \right.
+\end{eqnarray*} 
+
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item   $-4$ 
+		\item  $-2$
+		\item  $2$%
+		\item  $4$
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   $-4$ 
+		\item  $-2$
+		\item  $0$
+		\addtocounter{enumii}{1}
+		\item  $2$%
+		\item  $4$
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   $-4$ 
+		\item  $-2$
+		\item  $0$
+		\item  $2$%
+		\item  $4$
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+  $2$%
+		
+\else
+\fi
+

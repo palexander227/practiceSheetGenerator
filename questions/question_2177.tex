@@ -1,0 +1,61 @@
+\centerline{
+\begin{tikzpicture}[scale=0.5]
+	\draw (0,0) coordinate (A) --
+		++(150:10) coordinate (B) --
+		(B |- A) coordinate (C)  --
+		cycle;
+	\node[below right] at (A) {$A$};
+	\node[above] at (B) {$B$};
+	\node[below left] at (C) {$C$};
+	\coordinate (D) at (-6,0);
+	\draw (B) -- (D) node[midway] (P) {};
+	\node[below] at (D) {$D$};
+	\node[circle,fill,inner sep=0pt,minimum size=4pt] at (P) {};
+	\node[above right] at (P) {$P$};
+\end{tikzpicture}}
+
+Triangle $ABC$ is a right triangle with $\angle ACB$ as its right angle, $m\angle ABC = 60^\circ$ , and $AB = 10$. Let $P$ be randomly chosen inside $ABC$ , and extend $\overline{BP}$ to meet $\overline{AC}$ at $D$. What is the probability that $BD > 5\sqrt2$?
+
+
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item $\frac{2-\sqrt2}{2}$
+		\item $\frac{1}{3}$
+		\item $\frac{3-\sqrt3}{3}$%
+		\item $\frac{5-\sqrt5}{5}$
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item $\frac{2-\sqrt2}{2}$
+		\item $\frac{1}{3}$
+		\item $\frac{3-\sqrt3}{3}$%
+		\addtocounter{enumii}{1}
+		\item $\frac{1}{2}$
+		\item $\frac{5-\sqrt5}{5}$
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item $\frac{2-\sqrt2}{2}$
+		\item $\frac{1}{3}$
+		\item $\frac{3-\sqrt3}{3}$%
+		\item $\frac{1}{2}$
+		\item $\frac{5-\sqrt5}{5}$
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+ $\frac{3-\sqrt3}{3}$%
+		
+\else
+\fi
+

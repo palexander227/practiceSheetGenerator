@@ -1,0 +1,47 @@
+
+
+
+
+ Define $f(a,b)=a^{b}$.Which of the following must be true for every $x,y$? 
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item   $f(1,y)=f(0,y)$
+		\item  $f(\sqrt{x},y)=f(x,.5y)$%
+		\item  $f(.5x,y)=f(,2y)$
+		\item  $f(0,y)=f(x,0)$
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   $f(1,y)=f(0,y)$
+		\item  $f(.5x,y)=f(x,.5y)$
+		\item  $f(\sqrt{x},y)=f(x,.5y)$%
+		\addtocounter{enumii}{1}
+		\item  $f(.5x,y)=f(,2y)$
+		\item  $f(0,y)=f(x,0)$
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   $f(1,y)=f(0,y)$
+		\item  $f(.5x,y)=f(x,.5y)$
+		\item  $f(\sqrt{x},y)=f(x,.5y)$%
+		\item  $f(.5x,y)=f(,2y)$
+		\item  $f(0,y)=f(x,0)$
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+  $f(\sqrt{x},y)=f(x,.5y)$%
+		
+\else
+\fi
+

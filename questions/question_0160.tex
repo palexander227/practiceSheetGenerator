@@ -1,0 +1,45 @@
+
+
+ Which of the following inequalities is true?
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item  $2^7<4^5<8^{3}$
+		\item  $2^7<8^3<4^{5}$%
+		\item  $8^3<4^5<2^{7}$
+		\item  $8^3<2^7<4^{5}$
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item  $4^5<2^7<8^{3}$
+		\item  $2^7<4^5<8^{3}$
+		\item  $2^7<8^3<4^{5}$%
+		\addtocounter{enumii}{1}
+		\item  $8^3<4^5<2^{7}$
+		\item  $8^3<2^7<4^{5}$
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item  $4^5<2^7<8^{3}$
+		\item  $2^7<4^5<8^{3}$
+		\item  $2^7<8^3<4^{5}$%
+		\item  $8^3<4^5<2^{7}$
+		\item  $8^3<2^7<4^{5}$
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+  $2^7<8^3<4^{5}$%
+		
+\else
+\fi
+

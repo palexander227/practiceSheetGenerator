@@ -1,0 +1,44 @@
+ 
+$(j+k)^2-(k-j)^2$
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item $0$
+		\item $2j^2$
+		\item $4jk$ % 
+		\item $2j^2+2k^2$
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item $0$
+		\item $2j^2$
+		\item $4jk$ % 
+		\addtocounter{enumii}{1}
+		\item $2j^2+2k^2$
+		\item None of these. 
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item $0$
+		\item $2j^2$
+		\item $4jk$ % 
+		\item $2j^2+2k^2$
+		\item None of these. 
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+ $4jk$ % 
+		
+\else
+\fi
+

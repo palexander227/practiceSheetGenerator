@@ -1,0 +1,48 @@
+
+
+
+
+
+  What is  \[\frac{10\cdot 8 \cdot 6\cdot 4\cdot 2}{5\cdot 4 \cdot 3\cdot 2\cdot 1}?\] 
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item    $2$
+		\item  $5$ 
+		\item $16$ 
+		\item  $32$ %
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item    $2$
+		\item  $5$ 
+		\item $8$
+		\addtocounter{enumii}{1}
+		\item $16$ 
+		\item  $32$ %
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item    $2$
+		\item  $5$ 
+		\item $8$
+		\item $16$ 
+		\item  $32$ %
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+  $32$ %
+
+\else
+\fi
+

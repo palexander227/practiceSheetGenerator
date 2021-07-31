@@ -1,0 +1,43 @@
+If $x$,$y$,and $z$ are positive integers with $xy=24$, $xz=48$, and $yz=72$, then $x+y+z$ is
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item 17
+		\item 19
+		\item 22%
+		\item 24
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item 17
+		\item 19
+		\item 20
+		\addtocounter{enumii}{1}
+		\item 22%
+		\item 24
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item 17
+		\item 19
+		\item 20
+		\item 22%
+		\item 24
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+ 22%
+		
+\else
+\fi
+

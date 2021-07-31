@@ -1,0 +1,76 @@
+ %Modeling, science, non-linear
+ In metereology, the chance of rain over a given area is given by the the following formula
+$$P=\overline p a $$
+where $P_A$ is the chance of rain, $\overline p$ is the average percentage it will rain over what part of the region may receive rain, and $a$ is the percentage of the region that could receive rain.  In one particular region, a metereologist determines that $$\overline p(a)=0.77a$$ has a very high correlation to the empirical data collected over the last $38$ years.  Which of the following graphs best represents the model of $P_A$?
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left, xmin=0, xmax=100, ymin=0, ymax=100, xtick={50,100}, ytick={50,100}, ylabel={$P\%$}, xlabel={$a\%$},]
+ \addplot[domain=0:100,samples=50]{0.77*x^2/100};
+ \end{axis}\end{tikzpicture} % 
+		\item \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left, xmin=0, xmax=100, ymin=0, ymax=100, xtick={50,100}, ytick={50,100}, ylabel={$P\%$}, xlabel={$a\%$},]
+ \addplot[domain=0:100,samples=5]{0.77*x};
+ \end{axis}\end{tikzpicture} 
+		\item \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left, xmin=0, xmax=100, ymin=0, ymax=100, xtick={50,100}, ytick={50,100}, ylabel={$P\%$}, xlabel={$a\%$},]
+ \addplot[domain=0:100,samples=50]{7.7*x^0.5};
+ \end{axis}\end{tikzpicture} 
+		\item \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left, xmin=0, xmax=100, ymin=0, ymax=100, xtick={50,100}, ytick={50,100}, ylabel={$P\%$}, xlabel={$a\%$},]
+ \addplot[domain=0:100,samples=5]{100-.77*x};
+ \end{axis}\end{tikzpicture} 
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left, xmin=0, xmax=100, ymin=0, ymax=100, xtick={50,100}, ytick={50,100}, ylabel={$P\%$}, xlabel={$a\%$},]
+ \addplot[domain=0:100,samples=50]{0.77*x^2/100};
+ \end{axis}\end{tikzpicture} % 
+		\item \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left, xmin=0, xmax=100, ymin=0, ymax=100, xtick={50,100}, ytick={50,100}, ylabel={$P\%$}, xlabel={$a\%$},]
+ \addplot[domain=0:100,samples=50]{77/(x+1)^0.8};
+ \end{axis}\end{tikzpicture} 
+		\item \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left, xmin=0, xmax=100, ymin=0, ymax=100, xtick={50,100}, ytick={50,100}, ylabel={$P\%$}, xlabel={$a\%$},]
+ \addplot[domain=0:100,samples=5]{0.77*x};
+ \end{axis}\end{tikzpicture} 
+		\addtocounter{enumii}{1}
+		\item \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left, xmin=0, xmax=100, ymin=0, ymax=100, xtick={50,100}, ytick={50,100}, ylabel={$P\%$}, xlabel={$a\%$},]
+ \addplot[domain=0:100,samples=50]{7.7*x^0.5};
+ \end{axis}\end{tikzpicture} 
+		\item \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left, xmin=0, xmax=100, ymin=0, ymax=100, xtick={50,100}, ytick={50,100}, ylabel={$P\%$}, xlabel={$a\%$},]
+ \addplot[domain=0:100,samples=5]{100-.77*x};
+ \end{axis}\end{tikzpicture} 
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left, xmin=0, xmax=100, ymin=0, ymax=100, xtick={50,100}, ytick={50,100}, ylabel={$P\%$}, xlabel={$a\%$},]
+ \addplot[domain=0:100,samples=50]{0.77*x^2/100};
+ \end{axis}\end{tikzpicture} % 
+		\item \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left, xmin=0, xmax=100, ymin=0, ymax=100, xtick={50,100}, ytick={50,100}, ylabel={$P\%$}, xlabel={$a\%$},]
+ \addplot[domain=0:100,samples=50]{77/(x+1)^0.8};
+ \end{axis}\end{tikzpicture} 
+		\item \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left, xmin=0, xmax=100, ymin=0, ymax=100, xtick={50,100}, ytick={50,100}, ylabel={$P\%$}, xlabel={$a\%$},]
+ \addplot[domain=0:100,samples=5]{0.77*x};
+ \end{axis}\end{tikzpicture} 
+		\item \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left, xmin=0, xmax=100, ymin=0, ymax=100, xtick={50,100}, ytick={50,100}, ylabel={$P\%$}, xlabel={$a\%$},]
+ \addplot[domain=0:100,samples=50]{7.7*x^0.5};
+ \end{axis}\end{tikzpicture} 
+		\item \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left, xmin=0, xmax=100, ymin=0, ymax=100, xtick={50,100}, ytick={50,100}, ylabel={$P\%$}, xlabel={$a\%$},]
+ \addplot[domain=0:100,samples=5]{100-.77*x};
+ \end{axis}\end{tikzpicture} 
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+ \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left, xmin=0, xmax=100, ymin=0, ymax=100, xtick={50,100}, ytick={50,100}, ylabel={$P\%$}, xlabel={$a\%$},]
+ \addplot[domain=0:100,samples=50]{0.77*x^2/100};
+ \end{axis}\end{tikzpicture} % 
+		
+\else
+\fi
+

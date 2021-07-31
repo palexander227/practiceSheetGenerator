@@ -1,0 +1,45 @@
+A printer can ink 100 pages of newsprint in one minute.
+At this rate, how many pages of newsprint will be inked
+in 15 seconds?
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item Six
+		\item Fifteen
+		\item Twenty
+		\item Twenty-Five%
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item Four
+		\item Six
+		\item Fifteen
+		\addtocounter{enumii}{1}
+		\item Twenty
+		\item Twenty-Five%
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item Four
+		\item Six
+		\item Fifteen
+		\item Twenty
+		\item Twenty-Five%
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+ Twenty-Five%
+
+\else
+\fi
+

@@ -1,0 +1,45 @@
+
+
+ Expand $(a-2b+c)+(-2a+b-3c)$:
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item   $-a-b-2c$%
+		\item  $-a+b-c$
+		\item  $a-b-c$
+		\item   $-a-b-c$
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   $-a-b-2c$%
+		\item  $a+2b-c$
+		\item  $-a+b-c$
+		\addtocounter{enumii}{1}
+		\item  $a-b-c$
+		\item   $-a-b-c$
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   $-a-b-2c$%
+		\item  $a+2b-c$
+		\item  $-a+b-c$
+		\item  $a-b-c$
+		\item   $-a-b-c$
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+   $-a-b-2c$%
+		
+\else
+\fi
+

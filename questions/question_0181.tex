@@ -1,0 +1,44 @@
+
+ Which of the following is irrational?
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item   $\sqrt{25}$
+		\item  $\sqrt{0}$
+		\item  $\sqrt{62}$%
+		\item   $\sqrt{64}$
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   $\sqrt{25}$
+		\item  $\sqrt{9}$
+		\item  $\sqrt{0}$
+		\addtocounter{enumii}{1}
+		\item  $\sqrt{62}$%
+		\item   $\sqrt{64}$
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   $\sqrt{25}$
+		\item  $\sqrt{9}$
+		\item  $\sqrt{0}$
+		\item  $\sqrt{62}$%
+		\item   $\sqrt{64}$
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+  $\sqrt{62}$%
+		
+\else
+\fi
+

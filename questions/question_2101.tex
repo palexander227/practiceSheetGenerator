@@ -1,0 +1,57 @@
+\begin{tikzpicture}
+\draw[gray!60!black,<->] (0.2,2.64)parabola bend (-1.5,-0.25)(-3.2,2.64);
+\draw[<->](-2.5,0)--(2.5,0);
+\draw[<->](0,-2)--(0,3);
+\end{tikzpicture}
+
+The graph above is $f(x) = a(x + 1)(x + 2)$, where $a$
+is a constant.  If $g(x) = -a(x - 1)(x - 2)$ is
+graphed on the same axes, which of the following
+describes the transformation of $f(x)$ to $g(x)$?
+\begin{itemize}
+\item I   The graph moves right 3 units.
+\item II  The graph moves left 3 units.
+\item III The graph is reflected across the x axis.
+\end{itemize}
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item I only
+		\item III only
+		\item I and III only%
+		\item II and III only
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item I only
+		\item II only
+		\item III only
+		\addtocounter{enumii}{1}
+		\item I and III only%
+		\item II and III only
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item I only
+		\item II only
+		\item III only
+		\item I and III only%
+		\item II and III only
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+ I and III only%
+		
+\else
+\fi
+

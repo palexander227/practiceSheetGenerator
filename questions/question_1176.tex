@@ -1,0 +1,44 @@
+ %Conditional probability based upon social science data used for two questions, this is the first question of the set
+If a randomly selected resident of Juneau is at most $24$ years old, what is the chance the resident is at most $9$ years old, to the nearest whole percent?
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item $7\%$
+		\item $13\% $ 
+		\item $19\% $ % 
+		\item $21\% $ 
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item $7\%$
+		\item $13\% $ 
+		\item $19\% $ % 
+		\addtocounter{enumii}{1}
+		\item $21\% $ 
+		\item $40\% $ 
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item $7\%$
+		\item $13\% $ 
+		\item $19\% $ % 
+		\item $21\% $ 
+		\item $40\% $ 
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+ $19\% $ % 
+		
+\else
+\fi
+

@@ -1,0 +1,46 @@
+
+
+
+   Which of the following sets contain a number that is smaller than any other number in that set?
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item   The integers
+		\item  The reals
+		\item  The set of all positive numbers
+		\item  None of the above %
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   The integers
+		\item  The reals
+		\item  $(0,1)$
+		\addtocounter{enumii}{1}
+		\item  The set of all positive numbers
+		\item  None of the above %
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   The integers
+		\item  The reals
+		\item  $(0,1)$
+		\item  The set of all positive numbers
+		\item  None of the above %
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+  None of the above %
+
+\else
+\fi
+

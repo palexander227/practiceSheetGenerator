@@ -1,0 +1,49 @@
+
+
+
+
+
+  Which of the following is a true statement?
+
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item    All parallelograms are rectangles and all rectangles are squares.
+		\item   All rectangles are paralllelograms and all squares are rectangles.%
+		\item  All rectangles are squares and all squares are parallelograms.
+		\item  All parallelograms are squares and all squares are rectangles.
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item    All parallelograms are rectangles and all rectangles are squares.
+		\item   All rectangles are parallelograms and all parallelograms are squares.
+		\item   All rectangles are paralllelograms and all squares are rectangles.%
+		\addtocounter{enumii}{1}
+		\item  All rectangles are squares and all squares are parallelograms.
+		\item  All parallelograms are squares and all squares are rectangles.
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item    All parallelograms are rectangles and all rectangles are squares.
+		\item   All rectangles are parallelograms and all parallelograms are squares.
+		\item   All rectangles are paralllelograms and all squares are rectangles.%
+		\item  All rectangles are squares and all squares are parallelograms.
+		\item  All parallelograms are squares and all squares are rectangles.
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+   All rectangles are paralllelograms and all squares are rectangles.%
+		
+\else
+\fi
+

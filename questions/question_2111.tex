@@ -1,0 +1,43 @@
+If $q-r>q$, which of the following must be true?
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item $q<0$
+		\item $q>0$
+		\item $r=0$
+		\item $r<0$%
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item $q<0$
+		\item $q>0$
+		\item $r=0$
+		\addtocounter{enumii}{1}
+		\item $r<0$%
+		\item $r>0$
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item $q<0$
+		\item $q>0$
+		\item $r=0$
+		\item $r<0$%
+		\item $r>0$
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+ $r<0$%
+
+\else
+\fi
+

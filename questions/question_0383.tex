@@ -1,0 +1,46 @@
+
+
+
+  Evaluate:  \[ \frac{1+\frac{1}{2}}{1+\frac{1}{1+\frac{1}{2}}} \]
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item    $ \frac{1}{5}$ 
+		\item $ \frac{5}{2}$
+		\item $ \frac{9}{10}$ % 
+		\item  $ \frac{10}{9}$
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item    $ \frac{1}{5}$ 
+		\item  $ \frac{2}{5}$ 
+		\item $ \frac{5}{2}$
+		\addtocounter{enumii}{1}
+		\item $ \frac{9}{10}$ % 
+		\item  $ \frac{10}{9}$
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item    $ \frac{1}{5}$ 
+		\item  $ \frac{2}{5}$ 
+		\item $ \frac{5}{2}$
+		\item $ \frac{9}{10}$ % 
+		\item  $ \frac{10}{9}$
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+ $ \frac{9}{10}$ % 
+		
+\else
+\fi
+

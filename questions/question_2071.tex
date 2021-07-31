@@ -1,0 +1,49 @@
+ Translate the following verbal mathematical expression into their equivalent symbolic counterparts.
+
+%The sum of two numbers is half the difference between them.
+ The product of two numbers is twice the difference between them.
+% The product of three numbers is five times their sum.
+
+
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item $x+y=(1/2)(x-y)$
+		\item $xy=2(x-y)$%
+		\item $xyz=5(x+y+z)$
+		\item None of these.
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item $x+y=(1/2)(x-y)$
+		\item $xy=2(x-y)$%
+		\item $xyz=5(x+y+z)$
+		\addtocounter{enumii}{1}
+		\item None of these.
+		\item The answer cannot be determined from the information given.
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item $x+y=(1/2)(x-y)$
+		\item $xy=2(x-y)$%
+		\item $xyz=5(x+y+z)$
+		\item None of these.
+		\item The answer cannot be determined from the information given.
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+ $xy=2(x-y)$%
+		
+\else
+\fi
+

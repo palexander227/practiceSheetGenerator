@@ -1,0 +1,46 @@
+
+
+
+ Which of the numbers below is the largest?
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item   $\log(50)$
+		\item  $3\log(3)$
+		\item  $5\log(2)$
+		\item  $3\log(4)$%
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   $\log(50)$
+		\item  $2\log(7)$
+		\item  $3\log(3)$
+		\addtocounter{enumii}{1}
+		\item  $5\log(2)$
+		\item  $3\log(4)$%
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   $\log(50)$
+		\item  $2\log(7)$
+		\item  $3\log(3)$
+		\item  $5\log(2)$
+		\item  $3\log(4)$%
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+  $3\log(4)$%
+
+\else
+\fi
+

@@ -1,0 +1,45 @@
+
+
+  What is the smallest positive number divisible by 3, 5, and 9?
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item  $30$
+		\item $45$%
+		\item $90$
+		\item  $135$
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   $27$
+		\item  $30$
+		\item $45$%
+		\addtocounter{enumii}{1}
+		\item $90$
+		\item  $135$
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   $27$
+		\item  $30$
+		\item $45$%
+		\item $90$
+		\item  $135$
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+ $45$%
+		
+\else
+\fi
+

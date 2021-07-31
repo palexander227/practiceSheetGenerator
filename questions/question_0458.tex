@@ -1,0 +1,46 @@
+
+
+
+  Consider a set of 10 consecutive integers.  Which of the following has the greatest probability?
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item  Choosing a number from this set that is less than the median.
+		\item  Choosing a number from this set that is even.
+		\item  Choosing a number from this set that is odd.
+		\item  All of the above have equal probability.%
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   Choosing a number from this set that is less than the mean.
+		\item  Choosing a number from this set that is less than the median.
+		\item  Choosing a number from this set that is even.
+		\addtocounter{enumii}{1}
+		\item  Choosing a number from this set that is odd.
+		\item  All of the above have equal probability.%
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   Choosing a number from this set that is less than the mean.
+		\item  Choosing a number from this set that is less than the median.
+		\item  Choosing a number from this set that is even.
+		\item  Choosing a number from this set that is odd.
+		\item  All of the above have equal probability.%
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+  All of the above have equal probability.%
+
+\else
+\fi
+

@@ -1,0 +1,50 @@
+ 
+\begin{tikzpicture}[scale=0.8]
+\begin{axis}[title=U.S. Tobacco production in billions of pounds, xlabel = Year, ylabel= Production,xtick={1970, 1980, 1990,..., 2020},xticklabels={$1970$, $1980$, $1990$, $2000$, $2010$, $2020$},grid=both, minor xtick={1970, 1972,1974,..., 2016, 2018}, ytick={0,.5,...,2.5,3}, minor ytick={0,.1, .2, ..., 2.4}, ]
+\addplot[only marks, mark size=0.3mm] table[col sep=comma] {support/tobacco.csv};
+\addplot[domain=1970:2016,]{64.14989-0.03151*x};
+\end{axis}
+\end{tikzpicture}\\ 
+According to the line of best fit in the scatterplot above, which of the following best approximates the year in which the estimated tobacco production of the United States was $1$ billion pounds?\\ \\
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item $2001 $ 
+		\item $2002 $ 
+		\item $2003 $ 
+		\item $2004 $ % 
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item $2001 $ 
+		\item $2002 $ 
+		\item $2003 $ 
+		\addtocounter{enumii}{1}
+		\item $2004 $ % 
+		\item None of these. 
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item $2001 $ 
+		\item $2002 $ 
+		\item $2003 $ 
+		\item $2004 $ % 
+		\item None of these. 
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+ $2004 $ % 
+
+\else
+\fi
+

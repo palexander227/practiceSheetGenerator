@@ -1,0 +1,349 @@
+question;SAT;ACT_even;ACT_odd 
+question_1001.tex;B;G;B 
+question_1002.tex;D;J;D 
+question_1003.tex;B;G;B 
+question_1004.tex;A;F;A 
+question_1005.tex;C;H;C 
+question_1006.tex;D;J;D 
+question_1007.tex;A;F;A 
+question_1008.tex;D;J;D 
+question_1009.tex;C;H;C 
+question_1010.tex;A;F;A 
+question_1011.tex;B;G;B 
+question_1012.tex;C;H;C 
+question_1013.tex;B;G;B 
+question_1014.tex;B;G;B 
+question_1015.tex;B;G;B 
+question_1016.tex;7;7;7 
+question_1017.tex;$175$ feet;$175$ feet;$175$ feet 
+question_1018.tex;Either $6$ or $8$.;Either $6$ or $8$.;Either $6$ or $8$. 
+question_1019.tex;2;2;2 
+question_1020.tex;$144$;$144$;$144$ 
+question_1021.tex;B;G;B 
+question_1022.tex;C;H;C 
+question_1023.tex;D;J;D 
+question_1024.tex;D;J;D 
+question_1025.tex;A;F;A 
+question_1026.tex;B;G;B 
+question_1027.tex;A;F;A 
+question_1028.tex;C;H;C 
+question_1029.tex;C;H;C 
+question_1030.tex;D;J;D 
+question_1031.tex;B;G;B 
+question_1032.tex;A;F;A 
+question_1033.tex;A;F;A 
+question_1034.tex;D;J;D 
+question_1035.tex;C;H;C 
+question_1036.tex;Any integer from $10$ to $14$ inclusive.;Any integer from $10$ to $14$ inclusive.;Any integer from $10$ to $14$ inclusive. 
+question_1037.tex;$20$;$20$;$20$ 
+question_1038.tex;$40$;$40$;$40$ 
+question_1039.tex;$\frac{5}{6}$ or $.833$;$\frac{5}{6}$ or $.833$;$\frac{5}{6}$ or $.833$ 
+question_1040.tex;$3$;$3$;$3$ 
+question_1041.tex;D;J;D 
+question_1042.tex;D;J;D 
+question_1043.tex;C;H;C 
+question_1044.tex;C;H;C 
+question_1045.tex;C;H;C 
+question_1046.tex;A;F;A 
+question_1047.tex;B;G;B 
+question_1048.tex;D;J;D 
+question_1049.tex;D;J;D 
+question_1050.tex;A;F;A 
+question_1051.tex;D;J;D 
+question_1052.tex;D;J;D 
+question_1053.tex;A;F;A 
+question_1054.tex;B;G;B 
+question_1055.tex;B;G;B 
+question_1056.tex;$1$ or $9$;$1$ or $9$;$1$ or $9$ 
+question_1057.tex;$5$;$5$;$5$ 
+question_1058.tex;$40$;$40$;$40$ 
+question_1059.tex;$480$;$480$;$480$ 
+question_1060.tex;$\frac{3}{5}$ or $0.6$;$\frac{3}{5}$ or $0.6$;$\frac{3}{5}$ or $0.6$ 
+question_1061.tex;A;F;A 
+question_1062.tex;B;G;B 
+question_1063.tex;B;G;B 
+question_1064.tex;B;G;B 
+question_1065.tex;C;H;C 
+question_1066.tex;C;H;C 
+question_1067.tex;C;H;C 
+question_1068.tex;A;F;A 
+question_1069.tex;A;F;A 
+question_1070.tex;C;H;C 
+question_1071.tex;A;F;A 
+question_1072.tex;A;F;A 
+question_1073.tex;C;H;C 
+question_1074.tex;A;F;A 
+question_1075.tex;B;G;B 
+question_1076.tex;$22$;$22$;$22$ 
+question_1077.tex;$\frac{4}{5}$ or $0.8$;$\frac{4}{5}$ or $0.8$;$\frac{4}{5}$ or $0.8$ 
+question_1078.tex;$7$;$7$;$7$ 
+question_1079.tex;$\frac{5}{6}$ or $.833$;$\frac{5}{6}$ or $.833$;$\frac{5}{6}$ or $.833$ 
+question_1080.tex;3.23;3.23;3.23 
+question_1081.tex;D;J;D 
+question_1082.tex;B;G;B 
+question_1083.tex;A;F;A 
+question_1084.tex;D;J;D 
+question_1085.tex;B;G;B 
+question_1086.tex;D;J;D 
+question_1087.tex;D;J;D 
+question_1088.tex;D;J;D 
+question_1089.tex;A;F;A 
+question_1090.tex;C;H;C 
+question_1091.tex;C;H;C 
+question_1092.tex;B;G;B 
+question_1093.tex;A;F;A 
+question_1094.tex;A;F;A 
+question_1095.tex;B;G;B 
+question_1096.tex;$5.4$;$5.4$;$5.4$ 
+question_1097.tex;$\frac{1}{4}$ or $.25$;$\frac{1}{4}$ or $.25$;$\frac{1}{4}$ or $.25$ 
+question_1098.tex;$15$ or $45$;$15$ or $45$;$15$ or $45$ 
+question_1099.tex;$162$;$162$;$162$ 
+question_1100.tex;$\frac{15}{8}$;$\frac{15}{8}$;$\frac{15}{8}$ 
+question_1101.tex;A;F;A 
+question_1102.tex;A;F;A 
+question_1103.tex;D;J;D 
+question_1104.tex;C;H;C 
+question_1105.tex;D;J;D 
+question_1106.tex;D;J;D 
+question_1107.tex;C;H;C 
+question_1108.tex;C;H;C 
+question_1109.tex;B;G;B 
+question_1110.tex;B;G;B 
+question_1111.tex;D;J;D 
+question_1112.tex;C;H;C 
+question_1113.tex;B;G;B 
+question_1114.tex;C;H;C 
+question_1115.tex;C;H;C 
+question_1116.tex;C;H;C 
+question_1117.tex;C;H;C 
+question_1118.tex;D;J;D 
+question_1119.tex;B;G;B 
+question_1120.tex;D;J;D 
+question_1121.tex;C;H;C 
+question_1122.tex;B;G;B 
+question_1123.tex;D;J;D 
+question_1124.tex;A;F;A 
+question_1125.tex;B;G;B 
+question_1126.tex;B;G;B 
+question_1127.tex;B;G;B 
+question_1128.tex;B;G;B 
+question_1129.tex;C;H;C 
+question_1130.tex;B;G;B 
+question_1131.tex;$34 $;$34 $;$34 $ 
+question_1132.tex;$.758 $;$.758 $;$.758 $ 
+question_1133.tex;$7.5$ or $\frac{15}{2}$;$7.5$ or $\frac{15}{2}$;$7.5$ or $\frac{15}{2}$ 
+question_1134.tex;$19 $;$19 $;$19 $ 
+question_1135.tex;$3.24 $;$3.24 $;$3.24 $ 
+question_1136.tex;$7.5$ or $\frac{15}{2}$;$7.5$ or $\frac{15}{2}$;$7.5$ or $\frac{15}{2}$ 
+question_1137.tex;$333$ or $334$;$333$ or $334$;$333$ or $334$ 
+question_1138.tex;$12.0$ or $12.1 $;$12.0$ or $12.1 $;$12.0$ or $12.1 $ 
+question_1139.tex;D;J;D 
+question_1140.tex;A;F;A 
+question_1141.tex;C;H;C 
+question_1142.tex;C;H;C 
+question_1143.tex;B;G;B 
+question_1144.tex;D;J;D 
+question_1145.tex;B;G;B 
+question_1146.tex;C;H;C 
+question_1147.tex;D;J;D 
+question_1148.tex;B;G;B 
+question_1149.tex;B;G;B 
+question_1150.tex;B;G;B 
+question_1151.tex;A;F;A 
+question_1152.tex;A;F;A 
+question_1153.tex;D;J;D 
+question_1154.tex;$36 $;$36 $;$36 $ 
+question_1155.tex;$\frac{1}{3}$ or $.333$;$\frac{1}{3}$ or $.333$;$\frac{1}{3}$ or $.333$ 
+question_1156.tex;$1$ or $\frac{11}{3}$ or $3.67$ or $3.66$;$1$ or $\frac{11}{3}$ or $3.67$ or $3.66$;$1$ or $\frac{11}{3}$ or $3.67$ or $3.66$ 
+question_1157.tex;$\frac{5}{6}$ or $.833$;$\frac{5}{6}$ or $.833$;$\frac{5}{6}$ or $.833$ 
+question_1158.tex;$0.7 $ or $\frac{7}{10}$;$0.7 $ or $\frac{7}{10}$;$0.7 $ or $\frac{7}{10}$ 
+question_1159.tex;D;J;D 
+question_1160.tex;C;H;C 
+question_1161.tex;A;F;A 
+question_1162.tex;A;F;A 
+question_1163.tex;C;H;C 
+question_1164.tex;D;J;D 
+question_1165.tex;A;F;A 
+question_1166.tex;C;H;C 
+question_1167.tex;C;H;C 
+question_1168.tex;D;J;D 
+question_1169.tex;D;J;D 
+question_1170.tex;D;J;D 
+question_1171.tex;C;H;C 
+question_1172.tex;C;H;C 
+question_1173.tex;D;J;D 
+question_1174.tex;D;J;D 
+question_1175.tex;C;H;C 
+question_1176.tex;C;H;C 
+question_1177.tex;C;H;C 
+question_1178.tex;C;H;C 
+question_1179.tex;C;H;C 
+question_1180.tex;C;H;C 
+question_1181.tex;C;H;C 
+question_1182.tex;C;H;C 
+question_1183.tex;D;J;D 
+question_1184.tex;A;F;A 
+question_1185.tex;D;J;D 
+question_1186.tex;A;F;A 
+question_1187.tex;C;H;C 
+question_1188.tex;C;H;C 
+question_1189.tex;$24$;$24$;$24$ 
+question_1190.tex;$5 $;$5 $;$5 $ 
+question_1191.tex;$12  $;$12  $;$12  $ 
+question_1192.tex;$8 $;$8 $;$8 $ 
+question_1193.tex;$3.4 $;$3.4 $;$3.4 $ 
+question_1194.tex;$3 $;$3 $;$3 $ 
+question_1195.tex;$\frac{7}{40} $ or $.175 $;$\frac{7}{40} $ or $.175 $;$\frac{7}{40} $ or $.175 $ 
+question_1196.tex;$8 $;$8 $;$8 $ 
+question_1197.tex;C;H;C 
+question_1198.tex;C;H;C 
+question_1199.tex;D;J;D 
+question_1200.tex;D;J;D 
+question_1201.tex;D;J;D 
+question_1202.tex;B;B;B 
+question_1203.tex;C;H;C 
+question_1204.tex;C;H;C 
+question_1205.tex;A;F;A 
+question_1206.tex;B;G;B 
+question_1207.tex;B;G;B 
+question_1208.tex;A;F;A 
+question_1209.tex;D;J;D 
+question_1210.tex;C;H;C 
+question_1211.tex;D;J;D 
+question_1212.tex;C;H;C 
+question_1213.tex;A;F;A 
+question_1214.tex;B;G;B 
+question_1215.tex;B;G;B 
+question_1216.tex;A;F;A 
+question_1217.tex;A;F;A 
+question_1218.tex;C;H;C 
+question_1219.tex;A;F;A 
+question_1220.tex;D;J;D 
+question_1221.tex;D;J;D 
+question_1222.tex;D;J;D 
+question_1223.tex;C;H;C 
+question_1224.tex;B;G;B 
+question_1225.tex;D;J;D 
+question_1226.tex;D;J;D 
+question_1227.tex;Some number between $5$ and $9$ hours inclusive.;Some number between $5$ and $9$ hours inclusive.;Some number between $5$ and $9$ hours inclusive. 
+question_1228.tex;$294$;$294$;$294$ 
+question_1229.tex;$0$;$0$;$0$ 
+question_1230.tex;$24$;$24$;$24$ 
+question_1231.tex;$16$;$16$;$16$ 
+question_1232.tex;Any from the set $x\in\{-1.5, \frac{-3}{2}, 3.5, \frac{7}{2}\}$;Any from the set $x\in\{-1.5, \frac{-3}{2}, 3.5, \frac{7}{2}\}$;Any from the set $x\in\{-1.5, \frac{-3}{2}, 3.5, \frac{7}{2}\}$ 
+question_1233.tex;1.04;1.04;1.04 
+question_1234.tex;$220$;$220$;$220$ 
+question_1235.tex;D;J;D 
+question_1236.tex;B;G;B 
+question_1237.tex;D;J;D 
+question_1238.tex;B;G;B 
+question_1239.tex;C;H;C 
+question_1240.tex;B;G;B 
+question_1241.tex;C;H;C 
+question_1242.tex;C;H;C 
+question_1243.tex;A;F;A 
+question_1244.tex;C;H;C 
+question_1245.tex;B;G;B 
+question_1246.tex;A;F;A 
+question_1247.tex;A;F;A 
+question_1248.tex;D;J;D 
+question_1249.tex;A;F;A 
+question_1250.tex;B;G;B 
+question_1251.tex;D;J;D 
+question_1252.tex;D;J;D 
+question_1253.tex;C;H;C 
+question_1254.tex;D;J;D 
+question_1255.tex;D;J;D 
+question_1256.tex;B;G;B 
+question_1257.tex;A;F;A 
+question_1258.tex;A;F;A 
+question_1259.tex;A;F;A 
+question_1260.tex;D;J;D 
+question_1261.tex;D;J;D 
+question_1262.tex;C;H;C 
+question_1263.tex;D;J;D 
+question_1264.tex;B;G;B 
+question_1265.tex;$90$ years.;$90$ years.;$90$ years. 
+question_1266.tex;$6$;$6$;$6$ 
+question_1267.tex;$2$;$2$;$2$ 
+question_1268.tex;$51$;$51$;$51$ 
+question_1269.tex;$1.5$;$1.5$;$1.5$ 
+question_1270.tex;$39$;$39$;$39$ 
+question_1271.tex;$39.5$;$39.5$;$39.5$ 
+question_1272.tex;$34.1$;$34.1$;$34.1$ 
+question_1273.tex;B;G;B 
+question_1274.tex;D;J;D 
+question_1275.tex;C;H;C 
+question_1276.tex;A;F;A 
+question_1277.tex;D;J;D 
+question_1278.tex;A;F;A 
+question_1279.tex;D;J;D 
+question_1280.tex;C;H;C 
+question_1281.tex;D;J;D 
+question_1282.tex;C;H;C 
+question_1283.tex;D;J;D 
+question_1284.tex;A;F;A 
+question_1285.tex;C;H;C 
+question_1286.tex;D;J;D 
+question_1287.tex;B;G;B 
+question_1288.tex;B;G;B 
+question_1289.tex;C;H;C 
+question_1290.tex;A;F;A 
+question_1291.tex;C;H;C 
+question_1292.tex;B;G;B 
+question_1293.tex;D;J;D 
+question_1294.tex;C;H;C 
+question_1295.tex;A;F;A 
+question_1296.tex;D;J;D 
+question_1297.tex;A;F;A 
+question_1298.tex;A;F;A 
+question_1299.tex;B;G;B 
+question_1300.tex;A;F;A 
+question_1301.tex;D;J;D 
+question_1302.tex;B;G;B 
+question_1303.tex;$2$ or $3$ or $4$;$2$ or $3$ or $4$;$2$ or $3$ or $4$ 
+question_1304.tex;$49.3$;$49.3$;$49.3$ 
+question_1305.tex;$14$;$14$;$14$ 
+question_1306.tex;$\frac{7}{18}$ or $.388$ or $.389$;$\frac{7}{18}$ or $.388$ or $.389$;$\frac{7}{18}$ or $.388$ or $.389$ 
+question_1307.tex;$2.7$;$2.7$;$2.7$ 
+question_1308.tex;$293$;$293$;$293$ 
+question_1309.tex;$0.506$;$0.506$;$0.506$ 
+question_1310.tex;$7.41$;$7.41$;$7.41$ 
+question_1311.tex;B;G;B 
+question_1312.tex;B;G;B 
+question_1313.tex;B;G;B 
+question_1314.tex;D;J;D 
+question_1315.tex;D;J;D 
+question_1316.tex;C;H;C 
+question_1317.tex;C;H;C 
+question_1318.tex;A;F;A 
+question_1319.tex;B;G;B 
+question_1320.tex;C;H;C 
+question_1321.tex;D;J;D 
+question_1322.tex;D;J;D 
+question_1323.tex;D;J;D 
+question_1324.tex;D;J;D 
+question_1325.tex;B;G;B 
+question_1326.tex;A;F;A 
+question_1327.tex;A;F;A 
+question_1328.tex;A;F;A 
+question_1329.tex;B;G;B 
+question_1330.tex;C;H;C 
+question_1331.tex;B;G;B 
+question_1332.tex;B;G;B 
+question_1333.tex;A;F;A 
+question_1334.tex;C;H;C 
+question_1335.tex;A;F;A 
+question_1336.tex;D;J;D 
+question_1337.tex;D;J;D 
+question_1338.tex;C;H;C 
+question_1339.tex;B;G;B 
+question_1340.tex;A;F;A 
+question_1341.tex;$87$;$87$;$87$ 
+question_1342.tex;$2$;$2$;$2$ 
+question_1343.tex;$35$;$35$;$35$ 
+question_1344.tex;$127$;$127$;$127$ 
+question_1345.tex;$0.16$ or $4/25$;$0.16$ or $4/25$;$0.16$ or $4/25$ 
+question_1346.tex;$103$ or $104$ or $105$;$103$ or $104$ or $105$;$103$ or $104$ or $105$ 
+question_1347.tex;$1.05$;$1.05$;$1.05$ 
+question_1348.tex;$219$;$219$;$219$ 

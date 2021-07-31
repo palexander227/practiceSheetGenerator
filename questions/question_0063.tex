@@ -1,0 +1,47 @@
+
+
+
+
+ Which of the following is not the same as $8^{2}$?
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item   $2^6$
+		\item  $4^3$
+		\item $16^{\frac{2}{3}}$%
+		\item $16^\frac{3}{2}$
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   $2^6$
+		\item  $4^3$
+		\item $16^{\frac{2}{3}}$%
+		\addtocounter{enumii}{1}
+		\item $16^\frac{3}{2}$
+		\item  $64$
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   $2^6$
+		\item  $4^3$
+		\item $16^{\frac{2}{3}}$%
+		\item $16^\frac{3}{2}$
+		\item  $64$
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+ $16^{\frac{2}{3}}$%
+		
+\else
+\fi
+

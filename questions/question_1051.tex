@@ -1,0 +1,59 @@
+ 
+\begin{center}\begin{tikzpicture}[scale=1.05,rotate=5]
+\draw(240:2)--(60:2)node[anchor=south west]{$\beta$};
+\draw(-80:2)--(100:2)node[anchor=south]{$\alpha$};
+\draw(-2,0)--(2,0)node[anchor=west]{$\gamma$};
+\draw(0,0)node[anchor=south east]{$a\degree$} 
+node[anchor=north west]{$x\degree$}
+node[anchor=north east]{$z\degree$};
+\draw(.1,0)node[anchor=south west]{$c\degree$};
+\draw(0.12,.3)node[anchor=south]{$b\degree$};
+\draw(-0.12,-.3)node[anchor=north]{$y\degree$};
+\end{tikzpicture}\\
+Note: Figure is not drawn to scale.\end{center}\vspace{-3mm}
+In the figure above lines $\alpha, \beta$, and $\gamma$ intersect at a point.  If $b-c=x-z$, which of the following must be true?\\ \\
+\begin{enumerate*}[label=\hspace{2mm}\Roman*.]
+\item $a=y$ \item $b=x$ \item $c=z$
+\end{enumerate*}  
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item I and II only. 
+		\item II and III only.  
+		\item I, II, and III. % 
+		\item None of the above.
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item I and II only. 
+		\item II and III only.  
+		\item I and III only. 
+		\addtocounter{enumii}{1}
+		\item I, II, and III. % 
+		\item None of the above.
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item I and II only. 
+		\item II and III only.  
+		\item I and III only. 
+		\item I, II, and III. % 
+		\item None of the above.
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+ I, II, and III. % 
+		
+\else
+\fi
+

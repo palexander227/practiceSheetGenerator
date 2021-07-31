@@ -1,0 +1,46 @@
+
+
+
+ Which of the following is the same as $ab+a+b+1$?
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item   $(a+b)^{2}$
+		\item  $(a+b+1)^2$
+		\item  $(a+1)(b+1)$%
+		\item  $(a-1)(b-1)$
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   $(a+b)^{2}$
+		\item  $(a-b)^{2}$
+		\item  $(a+b+1)^2$
+		\addtocounter{enumii}{1}
+		\item  $(a+1)(b+1)$%
+		\item  $(a-1)(b-1)$
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   $(a+b)^{2}$
+		\item  $(a-b)^{2}$
+		\item  $(a+b+1)^2$
+		\item  $(a+1)(b+1)$%
+		\item  $(a-1)(b-1)$
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+  $(a+1)(b+1)$%
+		
+\else
+\fi
+

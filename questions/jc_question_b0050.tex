@@ -1,0 +1,49 @@
+The height of a cylinder is 12 meters. If the radius of \textit{x} was doubled, how many times bigger would the cylinder be?
+
+\begin{tikzpicture}[scale=0.9] 
+\draw(-2,0)--(0,4)--(2,0)arc(360:180:2 and 0.6); 
+\draw[dashed](-2,0)arc(180:0:2 and 0.6) (0,0)node{$\bullet$}--(0,4); 
+\draw(2.3,0)--(2.5,0)(2.3,4)--(2.5,4)(2.4,2)node{$12$ m}; 
+\draw[->](2.4,2.2)--(2.4,4);\draw[->](2.4,1.8)--(2.4,0); 
+\end{tikzpicture} 
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item  $\frac{1}{2}$ 
+		\item  $1$ 
+		\item  $2$ 
+		\item  $4$ %
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   $\frac{1}{4}$
+		\item  $\frac{1}{2}$ 
+		\item  $1$ 
+		\addtocounter{enumii}{1}
+		\item  $2$ 
+		\item  $4$ %
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   $\frac{1}{4}$
+		\item  $\frac{1}{2}$ 
+		\item  $1$ 
+		\item  $2$ 
+		\item  $4$ %
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+  $4$ %
+
+\else
+\fi
+

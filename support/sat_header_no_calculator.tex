@@ -1,0 +1,66 @@
+\documentclass[border=2pt]{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+%\usepackage{transparent}
+\definecolor{satlight}{RGB}{228,228,227}
+\definecolor{satdark}{RGB}{26,26,25}
+\definecolor{bardark}{RGB}{99,100,99}
+\usetikzlibrary{shapes.geometric,shapes.symbols,shadows}
+\usetikzlibrary{intersections}
+
+\usepackage{arev}
+\begin{document}
+
+%\fontfamily{phv}\selectfont
+
+\begin{tikzpicture}
+
+\pgfmathsetmacro{\headerwidth}{18.4}
+\pgfmathsetmacro{\headerheight}{1.7}
+\pgfmathsetmacro{\barwidth}{0.4}
+\pgfmathsetmacro{\sectionnumindent}{1.2}
+
+\coordinate (LLC) at (0,0);
+\coordinate (URC) at (\headerwidth,\headerheight);
+%
+\fill[color=satlight] (LLC) -| (URC) -- (URC) -| (LLC) -- cycle;
+%
+\fill[color=satdark] (LLC) -- ++(\barwidth,0) -- ++(0,\headerheight) -- ++(-\barwidth,0) -- cycle;
+\fill[color=satdark] (URC) -- ++(-\barwidth,0) -- ++(0,-\headerheight) -- ++(\barwidth,0) -- cycle;
+%
+\node at ($(LLC)+(\sectionnumindent,\headerheight/2)$) {\resizebox{0.95cm}{!}{\textbf{3}}};
+\node at ($(URC)+(-\sectionnumindent,-\headerheight/2)$) {\resizebox{0.95cm}{!}{\textbf{3}}};
+%
+\pgfmathsetmacro{\calcwidth}{0.8}
+\pgfmathsetmacro{\calcheight}{1.15}
+%
+\coordinate (LLCC) at ($(\headerwidth/2,\headerheight/2)+(-\calcwidth/2,-\calcheight/2)$);
+%
+\fill[color=satdark,rounded corners=4pt]  (LLCC) -- ++(\calcwidth,0) -- ++(0,\calcheight) -- ++(-\calcwidth,0) -- cycle;
+%
+\pgfmathsetmacro{\buttonradius}{0.075}
+\coordinate (buttonstart) at ($(LLCC)+(2.0*\buttonradius,3*\buttonradius)+(0.028,-0.02)$);
+%
+\foreach \x in {0,1,2} {
+	\foreach \y in {0,1,2} {
+		\coordinate (tmp) at ($(buttonstart)+(3*\x*\buttonradius,0)+(0,3*\y*\buttonradius)$);
+		\fill[color=satlight] (tmp) circle [radius=\buttonradius];
+	}
+}
+%
+\pgfmathsetmacro{\calcwindowwidth}{0.64}
+\pgfmathsetmacro{\calcwindowheight}{0.25}
+\fill[color=satlight,rounded corners=2pt]  (LLCC) ++(0.08,0.83) -- 
+	++(\calcwindowwidth,0) -- 
+	++(0,\calcwindowheight) -- 
+	++(-\calcwindowwidth,0) --
+	cycle	;
+%
+\pgfmathsetmacro{\barlength}{1.9}
+\coordinate (midcalc) at ($(LLCC) + (0.5*\calcwidth,0.5*\calcheight)$);
+\draw[color=bardark, line width=3] (midcalc) ++(45:0.5*\barlength) -- ++(225:\barlength);
+\draw[color=bardark, line width=3] (midcalc) ++(-45:0.5*\barlength)  -- ++(135:\barlength);
+
+\end{tikzpicture}
+\end{document}

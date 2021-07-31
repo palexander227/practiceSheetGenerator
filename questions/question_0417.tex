@@ -1,0 +1,48 @@
+
+
+
+
+
+ In a basketball tournament there are 8 teams.  If each team plays 4 matches with every other team, then how many matches are there?
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item    $30$
+		\item  $32$ 
+		\item $110$ 
+		\item  $112$ % 
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item    $30$
+		\item  $32$ 
+		\item $56$ 
+		\addtocounter{enumii}{1}
+		\item $110$ 
+		\item  $112$ % 
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item    $30$
+		\item  $32$ 
+		\item $56$ 
+		\item $110$ 
+		\item  $112$ % 
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+  $112$ % 
+
+\else
+\fi
+

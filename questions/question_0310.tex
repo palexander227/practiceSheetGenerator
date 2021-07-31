@@ -1,0 +1,62 @@
+
+\begin{center}
+\begin{tikzpicture}
+	\draw node[left] at (2.5,.3) {$\mathlarger{f}$};     
+	\draw node[left] at (1.7,.2) {$\mathlarger{e}$};    
+	\draw node[left] at (1.6,-.3) {$\mathlarger{g}$};    
+	\draw node[left] at (2.2,-.3) {$\mathlarger{h}$};    
+	\draw node[left] at (2.3+2,.3+3) {$\mathlarger{b}$};     
+	\draw node[left] at (1.7+2,.2+3) {$\mathlarger{a}$};    
+	\draw node[left] at (1.4+2,-.3+3) {$\mathlarger{c}$};    
+	\draw node[left] at (2.3+1.8,-.3+3) {$\mathlarger{d}$};    
+	\draw[thick,<->] (-1,0)--(6,0) node[right] {$\mathlarger{m}$};
+	\draw[thick,->] (.5,-2)--(4.5,4.5);
+	\draw[thick,<->] (-1,3)--(6,3) node[right] {$\mathlarger{l}$};
+\end{tikzpicture}
+\end{center}
+
+
+   Which of the following lists all angles that must be congruent to angle $a$ ($l \parallel m$)? 
+
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item    $a,d,f,e,$
+		\item $a,d,f,g$ 
+		\item $a,d,e,g$
+		\item  $a,d,e,h$%
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item    $a,d,f,e,$
+		\item  $a,b,c,d$
+		\item $a,d,f,g$ 
+		\addtocounter{enumii}{1}
+		\item $a,d,e,g$
+		\item  $a,d,e,h$%
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item    $a,d,f,e,$
+		\item  $a,b,c,d$
+		\item $a,d,f,g$ 
+		\item $a,d,e,g$
+		\item  $a,d,e,h$%
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+  $a,d,e,h$%
+
+\else
+\fi
+

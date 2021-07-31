@@ -1,0 +1,45 @@
+
+
+ Evaluate $(-1)^{99}+(-1)^{100}+(-1)^{101}+(-1)^{102}$ 
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item   $-1$
+		\item  $0$%
+		\item $1$
+		\item $2$
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   $-1$
+		\item  $0$%
+		\item $1$
+		\addtocounter{enumii}{1}
+		\item $2$
+		\item  $3$
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   $-1$
+		\item  $0$%
+		\item $1$
+		\item $2$
+		\item  $3$
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+  $0$%
+		
+\else
+\fi
+

@@ -1,0 +1,48 @@
+What is the slope of any line that runs perpendicular to this line segment in terms of \textit{x} and \textit{y}?
+
+\begin{tikzpicture} 
+\draw[<->](-1.5,0)--(1.5,0); 
+\draw[<->](0,-1.5)--(0,1.5); 
+\draw(-1,-.8)node{$\bullet$}node[anchor=north]{$(x,y)$}--(0,0)node{$\bullet$}node[anchor=north west]{$(0,0)$}; 
+\end{tikzpicture} 
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item   $\frac{\textit{x}}{\textit{y}}$
+		\item  $-\frac{\textit{x}}{\textit{y}}$ %
+		\item  $\frac{\textit{y}}{\textit{x}}$ 
+		\item  $-\frac{\textit{y}}{\textit{x}}$ 
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   $\frac{\textit{x}}{\textit{y}}$
+		\item  $-\frac{\textit{x}}{\textit{y}}$ %
+		\item  $\frac{\textit{y}}{\textit{x}}$ 
+		\addtocounter{enumii}{1}
+		\item  $-\frac{\textit{y}}{\textit{x}}$ 
+		\item  $-\frac{2\textit{x}}{\textit{y}}$ 
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   $\frac{\textit{x}}{\textit{y}}$
+		\item  $-\frac{\textit{x}}{\textit{y}}$ %
+		\item  $\frac{\textit{y}}{\textit{x}}$ 
+		\item  $-\frac{\textit{y}}{\textit{x}}$ 
+		\item  $-\frac{2\textit{x}}{\textit{y}}$ 
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+  $-\frac{\textit{x}}{\textit{y}}$ %
+		
+\else
+\fi
+

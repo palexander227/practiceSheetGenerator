@@ -1,0 +1,49 @@
+What is the \textit{y}-coordinate of a the point (1,2) if it is reflected over the line \textit{x}=-2?
+
+\begin{tikzpicture}\begin{axis}[xmin=-1.1,xmax=4.1,axis lines=center, xtick={-1,0,...,4}, ymin=-7.1, ymax=6.1, ytick={-7, -6, ..., 6}] 
+; \draw(1,1.6)node{$\bullet$}node[anchor=south]{$(1,2)$}; 
+\draw(axis cs: 3.9,0)node[anchor=south]{$x$}; 
+\draw(axis cs: 0,5.8)node[anchor=west]{$y$}; 
+\end{axis}
+\end{tikzpicture} 
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item   $-6$ %
+		\item  $-2$ 
+		\item  $0$ 
+		\item  $2$  
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   $-6$ %
+		\item  $-2$ 
+		\item  $0$ 
+		\addtocounter{enumii}{1}
+		\item  $2$ 
+		\item  $4$ 
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   $-6$ %
+		\item  $-2$ 
+		\item  $0$ 
+		\item  $2$ 
+		\item  $4$ 
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+   $-6$ %
+		
+\else
+\fi
+

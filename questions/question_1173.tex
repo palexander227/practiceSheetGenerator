@@ -1,0 +1,49 @@
+ 
+\begin{center}\begin{tikzpicture}[scale=0.9]\begin{axis}[axis lines=left, grid=both, grid style=gray!50, title={\pbox{3 in}{Incarceration Rate and Poverty Rate\\ 50 States and D.C. }}, ylabel={Incarceration rate (\%) }, xlabel={\pbox{2in}{Poverty rate (\%)\\$y=0.048x+0.095$\\ $r^2=0.366$}}, ymin={0.2}, ymax={1.5}, xmin={7.5}, ytick={0,0.5,1,1.5 }, xmax={22.5}, xtick={5,10,15,20 }, minor tick num=4, ]
+\addplot[only marks, mark=*, mark options= {scale=0.4,fill=black,draw=black,},] table[col sep=comma,] {support/stpovinc.csv};
+\addplot[samples=3,domain= 0:25]{0.048*x+0.095 };
+\draw(axis cs:21.4,0.98)node[rectangle,fill=white,anchor=north east]{$\nearrow$}node[red]{$\bigcirc$}++(axis cs:0,-0.02) node[rectangle,fill=white, anchor= north east]{Mississippi};
+\end{axis}\end{tikzpicture}\end{center}\vspace{-2mm}
+The graph above shows a line of best fit through data points comparing incarceration rates to poverty rates.  Which of the following statements best describes the data point that represents the state of Mississippi?
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item Mississippi's poverty rate is about $2.2\%$ higher than the prediction.
+		\item Mississippi's poverty rate is about $0.15\%$ lower than the prediction.
+		\item Mississippi's incarceration rate is about $0.15\%$ lower than the prediction. % 
+		\item Mississippi's incarceration rate is about $0.15\%$ higher than the prediction.
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item Mississippi's poverty rate is about $2.2\%$ higher than the prediction.
+		\item Mississippi's incarceration rate is about $2.2\%$ higher than the prediction.
+		\item Mississippi's poverty rate is about $0.15\%$ lower than the prediction.
+		\addtocounter{enumii}{1}
+		\item Mississippi's incarceration rate is about $0.15\%$ lower than the prediction. % 
+		\item Mississippi's incarceration rate is about $0.15\%$ higher than the prediction.
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item Mississippi's poverty rate is about $2.2\%$ higher than the prediction.
+		\item Mississippi's incarceration rate is about $2.2\%$ higher than the prediction.
+		\item Mississippi's poverty rate is about $0.15\%$ lower than the prediction.
+		\item Mississippi's incarceration rate is about $0.15\%$ lower than the prediction. % 
+		\item Mississippi's incarceration rate is about $0.15\%$ higher than the prediction.
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+ Mississippi's incarceration rate is about $0.15\%$ lower than the prediction. % 
+		
+\else
+\fi
+

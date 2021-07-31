@@ -1,0 +1,109 @@
+ 
+Which of the following scatterplots shows a relationship that is appropriately modeled with the equation $y=ax^b$, where $a$ is positive and $b$ is greater than $1$?\\\\
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item 
+ \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left,ymin=0, ymax=6.5,xmin=0,xmax=2.2,xtick=\empty, ytick=\empty,]
+ \addplot table[col sep=comma,only marks]{support/decay.csv};
+ \draw(axis cs:2.1,0)node[anchor=south]{$x$};
+ \draw(axis cs:0,6.3)node[anchor=west]{$y$};
+ \end{axis}\end{tikzpicture}\hspace{3mm}
+		\item 
+ \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left,ymin=0, ymax=3.5,xmin=0,xmax=2.2,xtick=\empty, ytick=\empty,]
+ \addplot table[col sep=comma,only marks]{support/growth.csv};
+ \draw(axis cs:2.1,0)node[anchor=south]{$x$};
+ \draw(axis cs:0,3.3)node[anchor=west]{$y$};
+ \end{axis}\end{tikzpicture}\\\\ % 
+		\item 
+ \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left,ymin=0, ymax=3.5,xmin=0,xmax=2.2,xtick=\empty, ytick=\empty,]
+ \addplot table[col sep=comma,only marks]{support/random.csv};
+ \draw(axis cs:2.1,0)node[anchor=south]{$x$};
+ \draw(axis cs:0,3.3)node[anchor=west]{$y$};
+ \end{axis}\end{tikzpicture}\hspace{3mm}
+		\item 
+ \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left,ymin=0, ymax=3.5,xmin=0,xmax=2.2,xtick=\empty, ytick=\empty,]
+ \addplot table[col sep=comma,only marks]{support/line.csv};
+ \draw(axis cs:2.1,0)node[anchor=south]{$x$};
+ \draw(axis cs:0,3.3)node[anchor=west]{$y$};
+ \end{axis}\end{tikzpicture}
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item 
+ \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left,ymin=0, ymax=6.5,xmin=0,xmax=2.2,xtick=\empty, ytick=\empty,]
+ \addplot table[col sep=comma,only marks]{support/decay.csv};
+ \draw(axis cs:2.1,0)node[anchor=south]{$x$};
+ \draw(axis cs:0,6.3)node[anchor=west]{$y$};
+ \end{axis}\end{tikzpicture}\hspace{3mm}
+		\item 
+ \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left,ymin=0, ymax=3.5,xmin=0,xmax=2.2,xtick=\empty, ytick=\empty,]
+ \addplot table[col sep=comma,only marks]{support/growth.csv};
+ \draw(axis cs:2.1,0)node[anchor=south]{$x$};
+ \draw(axis cs:0,3.3)node[anchor=west]{$y$};
+ \end{axis}\end{tikzpicture}\\\\ % 
+		\item 
+ \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left,ymin=0, ymax=3.5,xmin=0,xmax=2.2,xtick=\empty, ytick=\empty,]
+ \addplot table[col sep=comma,only marks]{support/random.csv};
+ \draw(axis cs:2.1,0)node[anchor=south]{$x$};
+ \draw(axis cs:0,3.3)node[anchor=west]{$y$};
+ \end{axis}\end{tikzpicture}\hspace{3mm}
+		\addtocounter{enumii}{1}
+		\item 
+ \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left,ymin=0, ymax=3.5,xmin=0,xmax=2.2,xtick=\empty, ytick=\empty,]
+ \addplot table[col sep=comma,only marks]{support/line.csv};
+ \draw(axis cs:2.1,0)node[anchor=south]{$x$};
+ \draw(axis cs:0,3.3)node[anchor=west]{$y$};
+ \end{axis}\end{tikzpicture}
+		\item None of these. 
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item 
+ \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left,ymin=0, ymax=6.5,xmin=0,xmax=2.2,xtick=\empty, ytick=\empty,]
+ \addplot table[col sep=comma,only marks]{support/decay.csv};
+ \draw(axis cs:2.1,0)node[anchor=south]{$x$};
+ \draw(axis cs:0,6.3)node[anchor=west]{$y$};
+ \end{axis}\end{tikzpicture}\hspace{3mm}
+		\item 
+ \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left,ymin=0, ymax=3.5,xmin=0,xmax=2.2,xtick=\empty, ytick=\empty,]
+ \addplot table[col sep=comma,only marks]{support/growth.csv};
+ \draw(axis cs:2.1,0)node[anchor=south]{$x$};
+ \draw(axis cs:0,3.3)node[anchor=west]{$y$};
+ \end{axis}\end{tikzpicture}\\\\ % 
+		\item 
+ \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left,ymin=0, ymax=3.5,xmin=0,xmax=2.2,xtick=\empty, ytick=\empty,]
+ \addplot table[col sep=comma,only marks]{support/random.csv};
+ \draw(axis cs:2.1,0)node[anchor=south]{$x$};
+ \draw(axis cs:0,3.3)node[anchor=west]{$y$};
+ \end{axis}\end{tikzpicture}\hspace{3mm}
+		\item 
+ \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left,ymin=0, ymax=3.5,xmin=0,xmax=2.2,xtick=\empty, ytick=\empty,]
+ \addplot table[col sep=comma,only marks]{support/line.csv};
+ \draw(axis cs:2.1,0)node[anchor=south]{$x$};
+ \draw(axis cs:0,3.3)node[anchor=west]{$y$};
+ \end{axis}\end{tikzpicture}
+		\item None of these. 
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+ 
+ \begin{tikzpicture}[scale=0.5]\begin{axis}[axis lines=left,ymin=0, ymax=3.5,xmin=0,xmax=2.2,xtick=\empty, ytick=\empty,]
+ \addplot table[col sep=comma,only marks]{support/growth.csv};
+ \draw(axis cs:2.1,0)node[anchor=south]{$x$};
+ \draw(axis cs:0,3.3)node[anchor=west]{$y$};
+ \end{axis}\end{tikzpicture}\\\\ % 
+		
+\else
+\fi
+

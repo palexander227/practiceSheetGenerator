@@ -1,0 +1,45 @@
+
+
+ Simplify: $(x+y)^2-(x-y)^2$
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item   $x^2+y^2$
+		\item  $xy$
+		\item  $2xy$
+		\item  $4xy$%
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   $x^2+y^2$
+		\item  $xy$
+		\item  $2xy$
+		\addtocounter{enumii}{1}
+		\item   $3xy$
+		\item  $4xy$%
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   $x^2+y^2$
+		\item  $xy$
+		\item  $2xy$
+		\item   $3xy$
+		\item  $4xy$%
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+  $4xy$%
+
+\else
+\fi
+

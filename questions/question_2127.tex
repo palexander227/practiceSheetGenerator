@@ -1,0 +1,51 @@
+\begin{tikzpicture}
+\draw[<->](-1.5,0)--(1.5,0);
+\draw[<->](0,-1.5)--(0,1.5);
+\draw[<->,gray!80!black](-1.5,-0.1)--(.9,1.5);
+\draw(0,.9)node[anchor=north west]{line $b$};
+\end{tikzpicture}
+
+The equation of line $b$ is $2x - 3y = -27$.  Which of the
+following is an equation of a line perpendicular to line $b$?
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item $y=3x+10$
+		\item $y=2x-10$
+		\item $y=\frac{-3}{2}x-10$%
+		\item $y=-3x-10$
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item $y=3x+10$
+		\item $y=2x-10$
+		\item $y=\frac{2}{3}x+10$
+		\addtocounter{enumii}{1}
+		\item $y=\frac{-3}{2}x-10$%
+		\item $y=-3x-10$
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item $y=3x+10$
+		\item $y=2x-10$
+		\item $y=\frac{2}{3}x+10$
+		\item $y=\frac{-3}{2}x-10$%
+		\item $y=-3x-10$
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+ $y=\frac{-3}{2}x-10$%
+		
+\else
+\fi
+

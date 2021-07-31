@@ -1,0 +1,45 @@
+
+
+ The sum of two numbers is 8 and their product is 12.  What is the larger of these two numbers?
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item   $2$
+		\item   $3$
+		\item   $6$%
+		\item    $8$
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   $2$
+		\item   $3$
+		\item   $4$
+		\addtocounter{enumii}{1}
+		\item   $6$%
+		\item    $8$
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   $2$
+		\item   $3$
+		\item   $4$
+		\item   $6$%
+		\item    $8$
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+   $6$%
+		
+\else
+\fi
+

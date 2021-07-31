@@ -1,0 +1,48 @@
+
+
+
+  If $k^{2}=x$, what is $5x^{-3}$?
+
+
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item   $\mathlarger{5k^{5}}$
+		\item  $\mathlarger{\frac{5}{k^{5}}}$
+		\item  $5k^{6}$
+		\item  $\mathlarger{\frac{5}{k^{6}}}$%
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   $\mathlarger{5k^{5}}$
+		\item  $\mathlarger{\frac{5}{k^{5}}}$
+		\item  $5k^{6}$
+		\addtocounter{enumii}{1}
+		\item  $\mathlarger{\frac{5}{k^{6}}}$%
+		\item   $\mathlarger{\frac{6}{k^{6}}}$
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   $\mathlarger{5k^{5}}$
+		\item  $\mathlarger{\frac{5}{k^{5}}}$
+		\item  $5k^{6}$
+		\item  $\mathlarger{\frac{5}{k^{6}}}$%
+		\item   $\mathlarger{\frac{6}{k^{6}}}$
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+  $\mathlarger{\frac{5}{k^{6}}}$%
+
+\else
+\fi
+

@@ -1,0 +1,67 @@
+
+
+  Let $ABCD$ be a rectangle with $AB=6\sqrt{3}$ and $AD=4$.  Moreover, $m\angle BEC=30^\circ$. What is the total area of the shaded regions?
+
+ \begin{center}
+ \begin{tikzpicture}
+ 
+  
+    \draw[color=black] (0,0) -- (3.46,0)--(3.46,2)--(0,2)--(0,0)[thick,>=latex];
+    \draw[fill=gray] (3.46,0)--(3.46,2)--(3.46*2,0)[thick,>=latex];
+     \draw[fill=gray] (0,2)--(0,4)--(3.46,2)[thick,>=latex];
+                
+     \draw node[below] at (0,0) {$A$};
+     \draw node[below] at (3.46,0) {$B$};
+     \draw node[below] at (3.46*2,0) {$E$};
+     \draw node[above] at (3.46,2) {$\,\,C$};
+      \draw node[left] at (0,2) {$D$};
+     \draw node[left] at (0,4) {$F$};
+       \draw node[left] at (0,1) {$4$};    
+       \draw node[below] at (1.78,0) {$6\sqrt{3}$};                                                  
+      
+  
+\end{tikzpicture}
+\end{center}
+
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item   $23\sqrt{3}$ 
+		\item    $24\sqrt{3}$ 
+		\item  $26$ 
+		\item  $26\sqrt{3}$ %
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   $23\sqrt{3}$ 
+		\item    $24\sqrt{3}$ 
+		\item  $25\sqrt{3}$ 
+		\addtocounter{enumii}{1}
+		\item  $26$ 
+		\item  $26\sqrt{3}$ %
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   $23\sqrt{3}$ 
+		\item    $24\sqrt{3}$ 
+		\item  $25\sqrt{3}$ 
+		\item  $26$ 
+		\item  $26\sqrt{3}$ %
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+  $26\sqrt{3}$ %
+
+\else
+\fi
+

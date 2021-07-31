@@ -1,0 +1,47 @@
+
+
+
+
+ In an election, everyone voted for Klaus, Philip, or both candidates.  If $x$ people voted for Klaus, $y$ people voted for Philip, and $b$ people voted for both, then how many people voted for Philip or Klaus, but not both? 
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item   $x+y$
+		\item  $x+y-b$ %
+		\item  $x-y+b$
+		\item  $x-y+2b$
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   $x+y$
+		\item  $x+y-b$ %
+		\item  $x+y-2b$
+		\addtocounter{enumii}{1}
+		\item  $x-y+b$
+		\item  $x-y+2b$
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   $x+y$
+		\item  $x+y-b$ %
+		\item  $x+y-2b$
+		\item  $x-y+b$
+		\item  $x-y+2b$
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+  $x+y-b$ %
+		
+\else
+\fi
+

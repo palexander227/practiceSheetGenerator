@@ -1,0 +1,45 @@
+
+
+  The product of three numbers is odd.  Which of the following must be true?
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item   The sum of these three numbers is even.
+		\item  The sum of these three numbers is odd.%
+		\item   The product is also divisible by 2.
+		\item  None of the above
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   The sum of these three numbers is even.
+		\item  The sum of these three numbers is odd.%
+		\item  The product is also divisible by 3.
+		\addtocounter{enumii}{1}
+		\item   The product is also divisible by 2.
+		\item  None of the above
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   The sum of these three numbers is even.
+		\item  The sum of these three numbers is odd.%
+		\item  The product is also divisible by 3.
+		\item   The product is also divisible by 2.
+		\item  None of the above
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+  The sum of these three numbers is odd.%
+		
+\else
+\fi
+

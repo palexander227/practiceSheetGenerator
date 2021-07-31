@@ -1,0 +1,46 @@
+What is the area of the figure below in square units?
+
+\begin{tikzpicture} 
+\draw(-4,3.5)node[anchor=south]{A}--++(8,0)node[anchor=south]{B}--++(0,-7)node[anchor=north]{C}--++(-2,0)node[anchor=north]{D}--++(0,4)node[anchor=north east]{E}--++(-6,0)node[anchor=north]{F}--cycle; 
+\draw(-4,3.5)++(0, -1.5)node[anchor=west]{3}++(3, -1.5)node[anchor=north]{6}++(4, -4)node[anchor=north]{2}++(1, 3.5)node[anchor=west]{7}; 
+\end{tikzpicture} 
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item   $30$
+		\item  $32$ %
+		\item  $46$ 
+		\item  $48$  
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item   $30$
+		\item  $32$ %
+		\item  $46$ 
+		\addtocounter{enumii}{1}
+		\item  $48$ 
+		\item  $52$ 
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item   $30$
+		\item  $32$ %
+		\item  $46$ 
+		\item  $48$ 
+		\item  $52$ 
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+  $32$ %
+		
+\else
+\fi
+

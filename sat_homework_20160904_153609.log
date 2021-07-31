@@ -1,0 +1,2356 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.8.18)  4 SEP 2016 15:36
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./sat_homework_20160904_153609.tex
+(./sat_homework_20160904_153609.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(c:/texlive/2016/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(c:/texlive/2016/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(./support/flex_sat_2016_supplements.tex
+(c:/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(c:/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+
+(c:/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(c:/texlive/2016/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2016/01/06 v1.13 Data Visualization (1.13)
+
+(c:/texlive/2016/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(c:/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(c:/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks15
+\pgfutil@tempdima=\dimen105
+\pgfutil@tempdimb=\dimen106
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)
+) (c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box26
+
+(c:/texlive/2016/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(c:/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(c:/texlive/2016/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks16
+\pgfkeys@temptoks=\toks17
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks18
+))
+\pgf@x=\dimen107
+\pgf@y=\dimen108
+\pgf@xa=\dimen109
+\pgf@ya=\dimen110
+\pgf@xb=\dimen111
+\pgf@yb=\dimen112
+\pgf@xc=\dimen113
+\pgf@yc=\dimen114
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count88
+\c@pgf@countb=\count89
+\c@pgf@countc=\count90
+\c@pgf@countd=\count91
+\t@pgf@toka=\toks19
+\t@pgf@tokb=\toks20
+\t@pgf@tokc=\toks21
+ (c:/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count92
+\pgfsyssoftpath@bigbuffer@items=\count93
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (c:/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(c:/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen115
+\pgfmath@count=\count94
+\pgfmath@box=\box27
+\pgfmath@toks=\toks22
+\pgfmath@stack@operand=\toks23
+\pgfmath@stack@operation=\toks24
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
+x)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
+.code.tex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
+ex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
+de.tex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
+x)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
+etics.code.tex)))
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count95
+))
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen116
+\pgf@picmaxx=\dimen117
+\pgf@picminy=\dimen118
+\pgf@picmaxy=\dimen119
+\pgf@pathminx=\dimen120
+\pgf@pathmaxx=\dimen121
+\pgf@pathminy=\dimen122
+\pgf@pathmaxy=\dimen123
+\pgf@xx=\dimen124
+\pgf@xy=\dimen125
+\pgf@yx=\dimen126
+\pgf@yy=\dimen127
+\pgf@zx=\dimen128
+\pgf@zy=\dimen129
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
+e.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen130
+\pgf@path@lasty=\dimen131
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
+x
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen132
+\pgf@shorten@start@additional=\dimen133
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box28
+\pgf@hbox=\box29
+\pgf@layerbox@main=\box30
+\pgf@picture@serial@count=\count96
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
+.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen134
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
+ode.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen135
+\pgf@pt@y=\dimen136
+\pgf@pt@temp=\dimen137
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
+de.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen138
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen139
+\pgf@sys@shading@range@num=\count97
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box31
+))
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
+.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box32
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(c:/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
+y
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen140
+\pgf@nodesepend=\dimen141
+)
+(c:/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (c:/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(c:/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(c:/texlive/2016/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen142
+\pgffor@skip=\dimen143
+\pgffor@stack=\toks25
+\pgffor@toks=\toks26
+))
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
+de.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count98
+\pgfplotmarksize=\dimen144
+)
+\tikz@lastx=\dimen145
+\tikz@lasty=\dimen146
+\tikz@lastxsaved=\dimen147
+\tikz@lastysaved=\dimen148
+\tikzleveldistance=\dimen149
+\tikzsiblingdistance=\dimen150
+\tikz@figbox=\box33
+\tikz@figbox@bg=\box34
+\tikz@tempbox=\box35
+\tikz@tempbox@bg=\box36
+\tikztreelevel=\count99
+\tikznumberofchildren=\count100
+\tikznumberofcurrentchild=\count101
+\tikz@fig@count=\count102
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count103
+\pgfmatrixcurrentcolumn=\count104
+\pgf@matrix@numberofcolumns=\count105
+)
+\tikz@expandcount=\count106
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks27
+\t@pgfplots@tokb=\toks28
+\t@pgfplots@tokc=\toks29
+\pgfplots@tmpa=\dimen151
+\c@pgfplots@coordindex=\count107
+\c@pgfplots@scanlineindex=\count108
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.te
+x))
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex)
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfs
+upp_loader.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
+Package pgfplots: loading complementary arithmetics for your pgf version...
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfs
+upp_pgflibraryfpu.code.tex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfs
+upp_pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count109
+))
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststru
+cture.code.tex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststru
+ctureext.code.tex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.co
+de.tex
+\c@pgfplotsarray@tmp=\count110
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.c
+ode.tex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.c
+ode.tex
+\c@pgfplotstable@counta=\count111
+\t@pgfplotstable@a=\toks30
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.co
+de.tex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.
+tex))
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.te
+x)
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfsh
+ading.code.tex
+\c@pgfplotslibrarysurf@no=\count112
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfsha
+ding.pgfsys-pdftex.def)))
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex))
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.t
+ex
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex
+))) (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.t
+ex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarydecorations.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.t
+ex
+\pgfdecoratedcompleteddistance=\dimen152
+\pgfdecoratedremainingdistance=\dimen153
+\pgfdecoratedinputsegmentcompleteddistance=\dimen154
+\pgfdecoratedinputsegmentremainingdistance=\dimen155
+\pgf@decorate@distancetomove=\dimen156
+\pgf@decorate@repeatstate=\count113
+\pgfdecorationsegmentamplitude=\dimen157
+\pgfdecorationsegmentlength=\dimen158
+)
+\tikz@lib@dec@box=\box37
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarydecorations.pathmorphing.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
+orations.pathmorphing.code.tex))
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarydecorations.pathreplacing.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
+orations.pathreplacing.code.tex))
+\pgfplots@numplots=\count114
+\pgfplots@xmin@reg=\dimen159
+\pgfplots@xmax@reg=\dimen160
+\pgfplots@ymin@reg=\dimen161
+\pgfplots@ymax@reg=\dimen162
+\pgfplots@zmin@reg=\dimen163
+\pgfplots@zmax@reg=\dimen164
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.
+tex
+File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
+))) (c:/texlive/2016/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
+\c@tracingmulticols=\count115
+\mult@box=\box38
+\multicol@leftmargin=\dimen165
+\c@unbalance=\count116
+\c@collectmore=\count117
+\doublecol@number=\count118
+\multicoltolerance=\count119
+\multicolpretolerance=\count120
+\full@width=\dimen166
+\page@free=\dimen167
+\premulticols=\dimen168
+\postmulticols=\dimen169
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box39
+\last@line=\box40
+\maxbalancingoverflow=\dimen170
+\mult@rightbox=\box41
+\mult@grightbox=\box42
+\mult@gfirstbox=\box43
+\mult@firstbox=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\c@columnbadness=\count121
+\c@finalcolumnbadness=\count122
+\last@try=\dimen171
+\multicolovershoot=\dimen172
+\multicolundershoot=\dimen173
+\mult@nat@firstbox=\box62
+\colbreak@box=\box63
+\mc@col@check@num=\count123
+)
+(c:/texlive/2016/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+
+(c:/texlive/2016/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen174
+\extrarowheight=\dimen175
+\NC@list=\toks31
+\extratabsurround=\skip45
+\backup@length=\skip46
+)
+\TX@col@width=\dimen176
+\TX@old@table=\dimen177
+\TX@old@col=\dimen178
+\TX@target=\dimen179
+\TX@delta=\dimen180
+\TX@cols=\count124
+\TX@ftn=\toks32
+)
+(c:/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen181
+\lightrulewidth=\dimen182
+\cmidrulewidth=\dimen183
+\belowrulesep=\dimen184
+\belowbottomsep=\dimen185
+\aboverulesep=\dimen186
+\abovetopsep=\dimen187
+\cmidrulesep=\dimen188
+\cmidrulekern=\dimen189
+\defaultaddspace=\dimen190
+\@cmidla=\count125
+\@cmidlb=\count126
+\@aboverulesep=\dimen191
+\@belowrulesep=\dimen192
+\@thisruleclass=\count127
+\@lastruleclass=\count128
+\@thisrulewidth=\dimen193
+)
+(c:/texlive/2016/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty
+(c:/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brary3d.code.tex
+File: tikzlibrary3d.code.tex 2013/07/17 v3.0.1a (rcs-revision 1.2)
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen194
+))) (c:/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks33
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(c:/texlive/2016/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2016/02/27 v1.2a Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 142.
+LaTeX Info: Redefining \bm on input line 208.
+)
+(c:/texlive/2016/texmf-dist/tex/latex/quoting/quoting.sty
+Package: quoting 2014/01/28 v0.1c Consolidated environment for displayed text
+
+(c:/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count129
+)
+(c:/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+\quo@toppartop=\skip47
+)
+(c:/texlive/2016/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+\everycr=\toks34
+\minrowclearance=\skip48
+)
+(c:/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count130
+\calc@Bcount=\count131
+\calc@Adimen=\dimen195
+\calc@Bdimen=\dimen196
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count132
+\calc@Cskip=\skip51
+)
+(c:/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen197
+)
+(c:/texlive/2016/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+(c:/texlive/2016/texmf-dist/tex/latex/yhmath/yhmath.sty
+Package: yhmath 
+
+(c:/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(c:/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks35
+\ex@=\dimen198
+))
+(c:/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+LaTeX Info: Redefining \boldsymbol on input line 28.
+\pmbraise@=\dimen199
+)
+(c:/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count133
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count134
+\leftroot@=\count135
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count136
+\DOTSCASE@=\count137
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box64
+\strutbox@=\box65
+\big@size=\dimen256
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count138
+\c@MaxMatrixCols=\count139
+\dotsspace@=\muskip10
+\c@parentequation=\count140
+\dspbrk@lvl=\count141
+\tag@help=\toks36
+\row@=\count142
+\column@=\count143
+\maxfields@=\count144
+\andhelp@=\toks37
+\eqnshift@=\dimen257
+\alignsep@=\dimen258
+\tagshift@=\dimen259
+\tagwidth@=\dimen260
+\totwidth@=\dimen261
+\lineht@=\dimen262
+\@envbody=\toks38
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks39
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 12.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/yhex/m/n on input line 12.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/yhex/m/n on input line 12.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 13.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 14.
+)
+(c:/texlive/2016/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip55
+\enit@outerparindent=\dimen263
+\enit@toks=\toks40
+\enit@inbox=\box66
+\enitdp@description=\count145
+)
+(c:/texlive/2016/texmf-dist/tex/latex/pbox/pbox.sty
+Package: pbox 2011/12/07 v1.2 Dynamic parboxes
+\pb@xlen=\skip56
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryintersections.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.c
+ode.tex
+\pgf@intersect@solutions=\count146
+))
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.fillb
+etween.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibraryfillbetw
+een.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrarydecorati
+ons.softclip.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfcontrib/pgflibraryfillbetwe
+en.code.tex)))
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.decor
+ations.softclip.code.tex))
+(c:/texlive/2016/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip57
+\fb@frw=\dimen264
+\fb@frh=\dimen265
+\FrameRule=\dimen266
+\FrameSep=\dimen267
+)
+(c:/texlive/2016/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+(c:/texlive/2016/texmf-dist/tex/latex/units/units.sty
+Package: units 1998/08/04 v0.9b Typesetting units
+
+(c:/texlive/2016/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip58
+\L@UnitsRaiseTextstyle=\skip59
+\L@UnitsRaiseScriptstyle=\skip60
+))
+\@input{longdiv.aux}
+\openout2 = `longdiv.aux'.
+
+(c:/texlive/2016/texmf-dist/tex/generic/genmisc/longdiv.tex
+\gpten=\count147
+)
+(c:/texlive/2016/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box67
+\UL@hyphenbox=\box68
+\UL@skip=\skip61
+\UL@hook=\toks41
+\UL@height=\dimen268
+\UL@pe=\count148
+\UL@pixel=\dimen269
+\ULC@box=\box69
+Package: ulem 2012/05/18
+\ULdepth=\dimen270
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarydecorations.fractals.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
+orations.fractals.code.tex))
+(c:/texlive/2016/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks42
+\thm@bodyfont=\toks43
+\thm@headfont=\toks44
+\thm@notefont=\toks45
+\thm@headpunct=\toks46
+\thm@preskip=\skip62
+\thm@postskip=\skip63
+\thm@headsep=\skip64
+\dth@everypar=\toks47
+)
+(c:/texlive/2016/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+(c:/texlive/2016/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/04/23 3.9r The Babel package
+
+(c:/texlive/2016/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(c:/texlive/2016/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/04/23 3.9r Babel common definitions
+\babel@savecnt=\count149
+\U@D=\dimen271
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(c:/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2016/01/31 v5.1g context-sensitive quotations (JAW)
+\csq@reset=\count150
+\csq@gtype=\count151
+\csq@glevel=\count152
+\csq@qlevel=\count153
+\csq@maxlvl=\count154
+\csq@tshold=\count155
+\csq@ltx@everypar=\toks48
+
+(c:/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2016/01/31 v5.1g csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(c:/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+)
+Package csquotes Info: Enabling multilingual quotes.
+Package csquotes Info: Redefining alias 'english' -> 'english/american'.
+)
+Package csquotes Info: Allocating character ".
+
+(c:/texlive/2016/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count156
+)
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarydecorations.shapes.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
+orations.shapes.code.tex))
+(c:/texlive/2016/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip65
+\f@ncyO@elh=\skip66
+\f@ncyO@erh=\skip67
+\f@ncyO@olh=\skip68
+\f@ncyO@orh=\skip69
+\f@ncyO@elf=\skip70
+\f@ncyO@erf=\skip71
+\f@ncyO@olf=\skip72
+\f@ncyO@orf=\skip73
+)
+\satquestionnumber=\count157
+
+(c:/texlive/2016/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
+
+(c:/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(c:/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(c:/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks49
+\XKV@tempa@toks=\toks50
+)
+\XKV@depth=\count158
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(c:/texlive/2016/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(c:/texlive/2016/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+
+(c:/texlive/2016/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box70
+)
+\tc@llx=\dimen272
+\tc@lly=\dimen273
+\tc@urx=\dimen274
+\tc@ury=\dimen275
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(c:/texlive/2016/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen276
+\adjbox@Height=\dimen277
+\adjbox@Depth=\dimen278
+\adjbox@Totalheight=\dimen279
+
+(c:/texlive/2016/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count159
+)
+(c:/texlive/2016/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box71
+\sift@deathcycles=\count160
+\@vwid@loff=\dimen280
+\@vwid@roff=\dimen281
+))
+\c@thm=\count161
+\c@mydef=\count162
+\c@mydef2=\count163
+)
+(c:/texlive/2016/texmf-dist/tex/latex/psnfss/palatino.sty
+Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(c:/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(c:/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count164
+\Gm@cntv=\count165
+\c@Gm@tempcnt=\count166
+\Gm@bindingoffset=\dimen282
+\Gm@wd@mp=\dimen283
+\Gm@odd@mp=\dimen284
+\Gm@even@mp=\dimen285
+\Gm@layoutwidth=\dimen286
+\Gm@layoutheight=\dimen287
+\Gm@layouthoffset=\dimen288
+\Gm@layoutvoffset=\dimen289
+\Gm@dimlist=\toks51
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+
+No file sat_homework_20160904_153609.aux.
+\openout1 = `sat_homework_20160904_153609.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 13.
+(c:/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+(c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count167
+\scratchdimen=\dimen290
+\scratchbox=\box72
+\nofMPsegments=\count168
+\nofMParguments=\count169
+\everyMPshowfont=\toks52
+\MPscratchCnt=\count170
+\MPscratchDim=\dimen291
+\MPnumerator=\count171
+\makeMPintoPDFobject=\count172
+\everyMPtoPDFconversion=\toks53
+) (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(c:/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(c:/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(c:/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.13} into 
+your preamble.
+ on input line 13.
+
+LaTeX Info: Redefining \celsius on input line 13.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 13.
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 13.
+Package gensymb Info: Using \Omega for \ohm on input line 13.
+
+Package gensymb Warning: Not defining \micro.
+
+Package csquotes Info: Making character " active on input line 13.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot twoside 
+* h-part:(L,W,R)=(51.21495pt, 528.93675pt, 34.1433pt)
+* v-part:(T,H,B)=(17.07164pt, 760.8267pt, 17.07164pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=528.93675pt
+* \textheight=580.43622pt
+* \oddsidemargin=-21.05504pt
+* \evensidemargin=-38.1267pt
+* \topmargin=-55.19835pt
+* \headheight=45.5244pt
+* \headsep=42.67912pt
+* \topskip=10.0pt
+* \footskip=85.35826pt
+* \marginparwidth=121.0pt
+* \marginparsep=11.0pt
+* \columnsep=34.1433pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(./support/sat_calcoff_cover.tex
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 2.
+
+(c:/texlive/2016/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 14.
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 14.
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 14.
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMX+yhex on input line 14.
+
+(c:/texlive/2016/texmf-dist/tex/latex/yhmath/omxyhex.fd
+File: OMXyhex.fd 
+File: OMXyhex.fd 2013/07/03 v1.1 YH's humble contribution to TeX maths (NP)
+)
+LaTeX Font Info:    External font `yhcmex10' loaded for size
+(Font)              <10> on input line 14.
+LaTeX Font Info:    External font `yhcmex10' loaded for size
+(Font)              <7> on input line 14.
+LaTeX Font Info:    External font `yhcmex10' loaded for size
+(Font)              <5> on input line 14.
+LaTeX Font Info:    Try loading font information for U+msa on input line 14.
+
+(c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 14.
+
+(c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 35.
+
+<support/sat_2016_math_formula_key.pdf, id=4, 428.45369pt x 175.22966pt>
+File: support/sat_2016_math_formula_key.pdf Graphic file (type pdf)
+
+<use support/sat_2016_math_formula_key.pdf>
+Package pdftex.def Info: support/sat_2016_math_formula_key.pdf used on input li
+ne 81.
+(pdftex.def)             Requested size: 428.45264pt x 175.22922pt.
+
+Overfull \hbox (1.6613pt too wide) in paragraph at lines 81--81
+[][]  
+ []
+
+<support/sat_header_no_calculator.pdf, id=5, 527.52986pt x 52.36966pt>
+File: support/sat_header_no_calculator.pdf Graphic file (type pdf)
+
+<use support/sat_header_no_calculator.pdf>
+Package pdftex.def Info: support/sat_header_no_calculator.pdf used on input lin
+e 88.
+(pdftex.def)             Requested size: 527.52858pt x 52.36952pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (45.5244pt): 
+ Make it at least 55.96956pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 88.
+<support/sat_footer_continuearrow.pdf, id=6, 76.69151pt x 19.9174pt>
+File: support/sat_footer_continuearrow.pdf Graphic file (type pdf)
+
+<use support/sat_footer_continuearrow.pdf>
+Package pdftex.def Info: support/sat_footer_continuearrow.pdf used on input lin
+e 88.
+(pdftex.def)             Requested size: 76.69131pt x 19.91734pt.
+ [1
+
+
+
+{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./support/sat_h
+eader_no_calculator.pdf> <./support/sat_2016_math_formula_key.pdf> <./support/s
+at_footer_continuearrow.pdf>])
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 21--22
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+(./questions/jc_question_b0001.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 31--32
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+(./questions/jc_question_b0002.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 41--42
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+(./questions/jc_question_b0003.tex
+
+LaTeX Warning: Command \textless invalid in math mode on input line 5.
+
+LaTeX Font Info:    Try loading font information for OML+ppl on input line 5.
+(c:/texlive/2016/texmf-dist/tex/latex/psnfss/omlppl.fd
+File: omlppl.fd 
+)
+LaTeX Font Info:    Font shape `OML/ppl/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 5.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 5.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 5.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 5.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 7.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 7.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 7.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 7.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 8.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 8.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 8.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 8.
+
+)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 51--52
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
+(./questions/jc_question_b0004.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 61--62
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+(./questions/jc_question_b0005.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 71--72
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+
+ []
+
+(./questions/jc_question_b0006.tex)
+File: support/sat_header_no_calculator.pdf Graphic file (type pdf)
+ <use support/sat_header_no_calculator.pdf>
+Package pdftex.def Info: support/sat_header_no_calculator.pdf used on input lin
+e 78.
+(pdftex.def)             Requested size: 527.52858pt x 52.36952pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (45.5244pt): 
+ Make it at least 55.96956pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: support/sat_footer_continuearrow.pdf Graphic file (type pdf)
+<use support/sat_footer_continuearrow.pdf>
+Package pdftex.def Info: support/sat_footer_continuearrow.pdf used on input lin
+e 78.
+(pdftex.def)             Requested size: 76.69131pt x 19.91734pt.
+ [2
+
+]
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 81--82
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+
+ []
+
+(./questions/jc_question_b0007.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 91--92
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+ []
+
+(./questions/jc_question_b0008.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 101--102
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+(./questions/jc_question_b0009.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 111--112
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+
+ []
+
+(./questions/jc_question_b0010.tex)
+File: support/sat_header_no_calculator.pdf Graphic file (type pdf)
+ <use support/sat_header_no_calculator.pdf>
+Package pdftex.def Info: support/sat_header_no_calculator.pdf used on input lin
+e 118.
+(pdftex.def)             Requested size: 527.52858pt x 52.36952pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (45.5244pt): 
+ Make it at least 55.96956pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: support/sat_footer_continuearrow.pdf Graphic file (type pdf)
+<use support/sat_footer_continuearrow.pdf>
+Package pdftex.def Info: support/sat_footer_continuearrow.pdf used on input lin
+e 118.
+(pdftex.def)             Requested size: 76.69131pt x 19.91734pt.
+ [3]
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 121--122
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
+(./questions/jc_question_b0001.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 131--132
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
+ []
+
+(./questions/jc_question_b0002.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 141--142
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+
+ []
+
+(./questions/jc_question_b0003.tex
+
+LaTeX Warning: Command \textless invalid in math mode on input line 5.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 5.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 5.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 5.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 7.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 7.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 7.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 7.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 8.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 8.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 8.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 8.
+
+)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 151--152
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+(./questions/jc_question_b0004.tex)
+File: support/sat_header_no_calculator.pdf Graphic file (type pdf)
+ <use support/sat_header_no_calculator.pdf>
+Package pdftex.def Info: support/sat_header_no_calculator.pdf used on input lin
+e 158.
+(pdftex.def)             Requested size: 527.52858pt x 52.36952pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (45.5244pt): 
+ Make it at least 55.96956pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: support/sat_footer_continuearrow.pdf Graphic file (type pdf)
+<use support/sat_footer_continuearrow.pdf>
+Package pdftex.def Info: support/sat_footer_continuearrow.pdf used on input lin
+e 158.
+(pdftex.def)             Requested size: 76.69131pt x 19.91734pt.
+ [4]
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 161--162
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+
+ []
+
+(./questions/jc_question_b0005.tex)
+File: support/sat_header_no_calculator.pdf Graphic file (type pdf)
+ <use support/sat_header_no_calculator.pdf>
+Package pdftex.def Info: support/sat_header_no_calculator.pdf used on input lin
+e 169.
+(pdftex.def)             Requested size: 527.52858pt x 52.36952pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (45.5244pt): 
+ Make it at least 55.96956pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: support/sat_footer_continuearrow.pdf Graphic file (type pdf)
+<use support/sat_footer_continuearrow.pdf>
+Package pdftex.def Info: support/sat_footer_continuearrow.pdf used on input lin
+e 169.
+(pdftex.def)             Requested size: 76.69131pt x 19.91734pt.
+ [5]
+(./support/sat_calcoff_grid-in_cover.tex
+<support/sat_calcoff_grid-in_instructions.pdf, id=77, 477.58675pt x 541.02805pt
+>
+File: support/sat_calcoff_grid-in_instructions.pdf Graphic file (type pdf)
+ <use support/sat_calcoff_grid-in_instructions.pdf>
+Package pdftex.def Info: support/sat_calcoff_grid-in_instructions.pdf used on i
+nput line 15.
+(pdftex.def)             Requested size: 477.58557pt x 541.02672pt.
+File: support/sat_header_no_calculator.pdf Graphic file (type pdf)
+
+<use support/sat_header_no_calculator.pdf>
+Package pdftex.def Info: support/sat_header_no_calculator.pdf used on input lin
+e 22.
+(pdftex.def)             Requested size: 527.52858pt x 52.36952pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (45.5244pt): 
+ Make it at least 55.96956pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: support/sat_footer_continuearrow.pdf Graphic file (type pdf)
+<use support/sat_footer_continuearrow.pdf>
+Package pdftex.def Info: support/sat_footer_continuearrow.pdf used on input lin
+e 22.
+(pdftex.def)             Requested size: 76.69131pt x 19.91734pt.
+ [6 <./support/sat_calcoff_grid-in_instructions.pdf>])
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 179--180
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+
+ []
+
+(./questions/jc_question_b0006.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 190--191
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+
+ []
+
+(./questions/jc_question_b0007.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 201--202
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
+
+ []
+
+(./questions/jc_question_b0008.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 212--213
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
+
+ []
+
+(./questions/jc_question_b0009.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 223--224
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
+
+ []
+
+(./questions/jc_question_b0010.tex)
+File: support/sat_header_no_calculator.pdf Graphic file (type pdf)
+ <use support/sat_header_no_calculator.pdf>
+Package pdftex.def Info: support/sat_header_no_calculator.pdf used on input lin
+e 231.
+(pdftex.def)             Requested size: 527.52858pt x 52.36952pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (45.5244pt): 
+ Make it at least 55.96956pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: support/sat_footer_continuearrow.pdf Graphic file (type pdf)
+<use support/sat_footer_continuearrow.pdf>
+Package pdftex.def Info: support/sat_footer_continuearrow.pdf used on input lin
+e 231.
+(pdftex.def)             Requested size: 76.69131pt x 19.91734pt.
+ [7
+
+] (./support/sat_calcon_cover.tex
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+
+ []
+
+File: support/sat_2016_math_formula_key.pdf Graphic file (type pdf)
+<use support/sat_2016_math_formula_key.pdf>
+Package pdftex.def Info: support/sat_2016_math_formula_key.pdf used on input li
+ne 81.
+(pdftex.def)             Requested size: 428.45264pt x 175.22922pt.
+
+Overfull \hbox (1.6613pt too wide) in paragraph at lines 81--81
+[][]  
+ []
+
+<support/sat_header_calculator.pdf, id=256, 527.52986pt x 52.36966pt>
+File: support/sat_header_calculator.pdf Graphic file (type pdf)
+
+<use support/sat_header_calculator.pdf>
+Package pdftex.def Info: support/sat_header_calculator.pdf used on input line 8
+8.
+(pdftex.def)             Requested size: 527.52858pt x 52.36952pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (45.5244pt): 
+ Make it at least 55.96956pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: support/sat_footer_continuearrow.pdf Graphic file (type pdf)
+<use support/sat_footer_continuearrow.pdf>
+Package pdftex.def Info: support/sat_footer_continuearrow.pdf used on input lin
+e 88.
+(pdftex.def)             Requested size: 76.69131pt x 19.91734pt.
+ [8 <./support/sat_header_calculator.pdf>])
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 242--243
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+
+ []
+
+(./questions/jc_question_b0001.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 252--253
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+
+ []
+
+(./questions/jc_question_b0002.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 262--263
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
+
+ []
+
+(./questions/jc_question_b0003.tex
+
+LaTeX Warning: Command \textless invalid in math mode on input line 5.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 5.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 5.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 5.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 7.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 7.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 7.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 7.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 8.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 8.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 8.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 8.
+
+)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 272--273
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+
+ []
+
+(./questions/jc_question_b0004.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 282--283
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
+
+ []
+
+(./questions/jc_question_b0005.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 292--293
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
+
+ []
+
+(./questions/jc_question_b0006.tex)
+File: support/sat_header_calculator.pdf Graphic file (type pdf)
+ <use support/sat_header_calculator.pdf>
+Package pdftex.def Info: support/sat_header_calculator.pdf used on input line 2
+99.
+(pdftex.def)             Requested size: 527.52858pt x 52.36952pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (45.5244pt): 
+ Make it at least 55.96956pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: support/sat_footer_continuearrow.pdf Graphic file (type pdf)
+<use support/sat_footer_continuearrow.pdf>
+Package pdftex.def Info: support/sat_footer_continuearrow.pdf used on input lin
+e 299.
+(pdftex.def)             Requested size: 76.69131pt x 19.91734pt.
+ [9
+
+]
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 302--303
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
+
+ []
+
+(./questions/jc_question_b0007.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 312--313
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
+
+ []
+
+(./questions/jc_question_b0008.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 322--323
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--323
+
+ []
+
+(./questions/jc_question_b0009.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 332--333
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
+
+ []
+
+(./questions/jc_question_b0010.tex)
+File: support/sat_header_calculator.pdf Graphic file (type pdf)
+ <use support/sat_header_calculator.pdf>
+Package pdftex.def Info: support/sat_header_calculator.pdf used on input line 3
+39.
+(pdftex.def)             Requested size: 527.52858pt x 52.36952pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (45.5244pt): 
+ Make it at least 55.96956pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: support/sat_footer_continuearrow.pdf Graphic file (type pdf)
+<use support/sat_footer_continuearrow.pdf>
+Package pdftex.def Info: support/sat_footer_continuearrow.pdf used on input lin
+e 339.
+(pdftex.def)             Requested size: 76.69131pt x 19.91734pt.
+ [10]
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 342--343
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
+
+ []
+
+(./questions/jc_question_b0001.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 352--353
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--353
+
+ []
+
+(./questions/jc_question_b0002.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 362--363
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
+
+ []
+
+(./questions/jc_question_b0003.tex
+
+LaTeX Warning: Command \textless invalid in math mode on input line 5.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 5.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 5.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 5.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 7.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 7.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 7.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 7.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 8.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 8.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 8.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 8.
+
+)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 372--373
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--373
+
+ []
+
+(./questions/jc_question_b0004.tex)
+File: support/sat_header_calculator.pdf Graphic file (type pdf)
+ <use support/sat_header_calculator.pdf>
+Package pdftex.def Info: support/sat_header_calculator.pdf used on input line 3
+79.
+(pdftex.def)             Requested size: 527.52858pt x 52.36952pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (45.5244pt): 
+ Make it at least 55.96956pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: support/sat_footer_continuearrow.pdf Graphic file (type pdf)
+<use support/sat_footer_continuearrow.pdf>
+Package pdftex.def Info: support/sat_footer_continuearrow.pdf used on input lin
+e 379.
+(pdftex.def)             Requested size: 76.69131pt x 19.91734pt.
+ [11]
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 382--383
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
+
+ []
+
+(./questions/jc_question_b0005.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 392--393
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--393
+
+ []
+
+(./questions/jc_question_b0006.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 402--403
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
+
+ []
+
+(./questions/jc_question_b0007.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 412--413
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--413
+
+ []
+
+(./questions/jc_question_b0008.tex)
+File: support/sat_header_calculator.pdf Graphic file (type pdf)
+ <use support/sat_header_calculator.pdf>
+Package pdftex.def Info: support/sat_header_calculator.pdf used on input line 4
+19.
+(pdftex.def)             Requested size: 527.52858pt x 52.36952pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (45.5244pt): 
+ Make it at least 55.96956pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: support/sat_footer_continuearrow.pdf Graphic file (type pdf)
+<use support/sat_footer_continuearrow.pdf>
+Package pdftex.def Info: support/sat_footer_continuearrow.pdf used on input lin
+e 419.
+(pdftex.def)             Requested size: 76.69131pt x 19.91734pt.
+ [12]
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 422--423
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
+
+ []
+
+(./questions/jc_question_b0009.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 432--433
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 432--433
+
+ []
+
+(./questions/jc_question_b0010.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 442--443
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--443
+
+ []
+
+(./questions/jc_question_b0001.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 452--453
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--453
+
+ []
+
+(./questions/jc_question_b0002.tex)
+File: support/sat_header_calculator.pdf Graphic file (type pdf)
+ <use support/sat_header_calculator.pdf>
+Package pdftex.def Info: support/sat_header_calculator.pdf used on input line 4
+59.
+(pdftex.def)             Requested size: 527.52858pt x 52.36952pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (45.5244pt): 
+ Make it at least 55.96956pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: support/sat_footer_continuearrow.pdf Graphic file (type pdf)
+<use support/sat_footer_continuearrow.pdf>
+Package pdftex.def Info: support/sat_footer_continuearrow.pdf used on input lin
+e 459.
+(pdftex.def)             Requested size: 76.69131pt x 19.91734pt.
+ [13]
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 462--463
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 462--463
+
+ []
+
+(./questions/jc_question_b0003.tex
+
+LaTeX Warning: Command \textless invalid in math mode on input line 5.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 5.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 5.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 5.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 7.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 7.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 7.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 7.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 8.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 8.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 8.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 8.
+
+)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 472--473
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 472--473
+
+ []
+
+(./questions/jc_question_b0004.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 482--483
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--483
+
+ []
+
+(./questions/jc_question_b0005.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 492--493
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--493
+
+ []
+
+(./questions/jc_question_b0006.tex)
+File: support/sat_header_calculator.pdf Graphic file (type pdf)
+ <use support/sat_header_calculator.pdf>
+Package pdftex.def Info: support/sat_header_calculator.pdf used on input line 4
+99.
+(pdftex.def)             Requested size: 527.52858pt x 52.36952pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (45.5244pt): 
+ Make it at least 55.96956pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: support/sat_footer_continuearrow.pdf Graphic file (type pdf)
+<use support/sat_footer_continuearrow.pdf>
+Package pdftex.def Info: support/sat_footer_continuearrow.pdf used on input lin
+e 499.
+(pdftex.def)             Requested size: 76.69131pt x 19.91734pt.
+ [14]
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 502--503
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--503
+
+ []
+
+(./questions/jc_question_b0007.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 512--513
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 512--513
+
+ []
+
+(./questions/jc_question_b0008.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 522--523
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 522--523
+
+ []
+
+(./questions/jc_question_b0009.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 532--533
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 532--533
+
+ []
+
+(./questions/jc_question_b0010.tex)
+File: support/sat_header_calculator.pdf Graphic file (type pdf)
+ <use support/sat_header_calculator.pdf>
+Package pdftex.def Info: support/sat_header_calculator.pdf used on input line 5
+39.
+(pdftex.def)             Requested size: 527.52858pt x 52.36952pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (45.5244pt): 
+ Make it at least 55.96956pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: support/sat_footer_continuearrow.pdf Graphic file (type pdf)
+<use support/sat_footer_continuearrow.pdf>
+Package pdftex.def Info: support/sat_footer_continuearrow.pdf used on input lin
+e 539.
+(pdftex.def)             Requested size: 76.69131pt x 19.91734pt.
+ [15]
+File: support/sat_header_calculator.pdf Graphic file (type pdf)
+
+<use support/sat_header_calculator.pdf>
+Package pdftex.def Info: support/sat_header_calculator.pdf used on input line 5
+40.
+(pdftex.def)             Requested size: 527.52858pt x 52.36952pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (45.5244pt): 
+ Make it at least 55.96956pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: support/sat_footer_continuearrow.pdf Graphic file (type pdf)
+<use support/sat_footer_continuearrow.pdf>
+Package pdftex.def Info: support/sat_footer_continuearrow.pdf used on input lin
+e 540.
+(pdftex.def)             Requested size: 76.69131pt x 19.91734pt.
+ [16]
+(./support/sat_calcon_grid-in_cover.tex
+<support/sat_calcon_grid-in_instructions.pdf, id=289, 477.37726pt x 541.02805pt
+>
+File: support/sat_calcon_grid-in_instructions.pdf Graphic file (type pdf)
+ <use support/sat_calcon_grid-in_instructions.pdf>
+Package pdftex.def Info: support/sat_calcon_grid-in_instructions.pdf used on in
+put line 15.
+(pdftex.def)             Requested size: 477.37608pt x 541.02672pt.
+File: support/sat_header_calculator.pdf Graphic file (type pdf)
+
+<use support/sat_header_calculator.pdf>
+Package pdftex.def Info: support/sat_header_calculator.pdf used on input line 2
+2.
+(pdftex.def)             Requested size: 527.52858pt x 52.36952pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (45.5244pt): 
+ Make it at least 55.96956pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: support/sat_footer_continuearrow.pdf Graphic file (type pdf)
+<use support/sat_footer_continuearrow.pdf>
+Package pdftex.def Info: support/sat_footer_continuearrow.pdf used on input lin
+e 22.
+(pdftex.def)             Requested size: 76.69131pt x 19.91734pt.
+ [17 <./support/sat_calcon_grid-in_instructions.pdf>])
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 550--551
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 550--551
+
+ []
+
+(./questions/jc_question_b0001.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 561--562
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--562
+
+ []
+
+(./questions/jc_question_b0002.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 572--573
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 572--573
+
+ []
+
+(./questions/jc_question_b0003.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 583--584
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 583--584
+
+ []
+
+(./questions/jc_question_b0004.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 594--595
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 594--595
+
+ []
+
+(./questions/jc_question_b0005.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 605--606
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--606
+
+ []
+
+(./questions/jc_question_b0006.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 616--617
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 616--617
+
+ []
+
+(./questions/jc_question_b0007.tex)
+Overfull \hbox (6.2327pt too wide) in paragraph at lines 628--629
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 628--629
+
+ []
+
+(./questions/jc_question_b0008.tex)
+File: support/sat_header_calculator.pdf Graphic file (type pdf)
+ <use support/sat_header_calculator.pdf>
+Package pdftex.def Info: support/sat_header_calculator.pdf used on input line 6
+36.
+(pdftex.def)             Requested size: 527.52858pt x 52.36952pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (45.5244pt): 
+ Make it at least 55.96956pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18
+
+]
+Underfull \hbox (badness 5711) in paragraph at lines 672--672
+[]|\OT1/ppl/m/it/10 z \OT1/ppl/m/n/10 can be any real
+ []
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 720.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 720.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 720.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 720.
+
+
+Underfull \hbox (badness 5711) in paragraph at lines 720--720
+[]|\OT1/ppl/m/it/10 z \OT1/ppl/m/n/10 can be any real
+ []
+
+[19
+
+] (./sat_homework_20160904_153609.aux) ) 
+Here is how much of TeX's memory you used:
+ 27219 strings out of 493014
+ 658292 string characters out of 6137001
+ 937008 words of memory out of 5000000
+ 30010 multiletter control sequences out of 15000+600000
+ 23579 words of font info for 55 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 64i,14n,84p,913b,705s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2016/texmf-dist/fonts/enc/d
+vips/base/8r.enc}<c:/texlive/2016/texmf-dist/fonts/type1/public/arev/ArevSans-B
+old.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2016/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2016/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2016/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+6.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/20
+16/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2016/texmf-dist/f
+onts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/
+palatino/uplb8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a
+.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on sat_homework_20160904_153609.pdf (19 pages, 1770149 bytes).
+PDF statistics:
+ 577 PDF objects out of 1000 (max. 8388607)
+ 379 compressed objects within 4 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+

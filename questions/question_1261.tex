@@ -1,0 +1,49 @@
+ 
+\vspace{-3mm}\begin{center}\begin{tikzpicture}[scale=0.7]\begin{axis}
+[axis lines=left,grid=both, xmin=0,xmax=60,ymin=0,ymax=110, xtick={10,20,...,50}, ytick={0,20,40,...,100}, minor y tick num=1,xlabel={Time (s)},ylabel={Mass Remaining (g)}, title={CO$_2$ remaining in solution}, legend entries={Heated, Unheated}]
+\addplot[orange, mark=square,only marks]table[x=Time, y=Mass, col sep=comma]{support/hot.csv };
+\addplot[blue,only marks]table[x=Time, y=Mass, col sep=comma]{support/cold.csv};
+\end{axis}\end{tikzpicture}\end{center}
+Two carbonic acid solutions each have $100$ grams of dissolved CO$_2$ and then sealed.  One of them is placed in a heated chamber and the other is placed in an unheated chamber.  The containers are opened simultaneously and left inside their respective chambers for $50$ minutes.  The graph above shows the amount of CO$_2$ still left in each container at $10$ minute intervals.  Which of the following statements correctly compares the average rates at which the two samples lose CO$_2$?
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item In every $10$-minute interval, the magnitude of the rate of change for the solution in the heated chamber is clearly greater than that of the solution in the unheated chamber.
+		\item In every $10$-minute interval, the magnitude of the rate of change for the solution in the unheated chamber is clearly greater than that of the solution in the heated chamber.
+		\item At first the rate of change is the same between the two chambers, but the magnitude of the rate of change for the heated chamber quickly becomes greater than that of the unheated chamber.
+		\item The magnitude of the rate of change for the heated chamber is clearly greater during the first $30$ minutes of the experiment, but the rate of change appears nearly identical during the last $20$ minutes. % 
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item In every $10$-minute interval, the magnitude of the rate of change for the solution in the heated chamber is clearly greater than that of the solution in the unheated chamber.
+		\item In every $10$-minute interval, the magnitude of the rate of change for the solution in the unheated chamber is clearly greater than that of the solution in the heated chamber.
+		\item At first the rate of change is the same between the two chambers, but the magnitude of the rate of change for the heated chamber quickly becomes greater than that of the unheated chamber.
+		\addtocounter{enumii}{1}
+		\item The magnitude of the rate of change for the heated chamber is clearly greater during the first $30$ minutes of the experiment, but the rate of change appears nearly identical during the last $20$ minutes. % 
+		\item None of these. 
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item In every $10$-minute interval, the magnitude of the rate of change for the solution in the heated chamber is clearly greater than that of the solution in the unheated chamber.
+		\item In every $10$-minute interval, the magnitude of the rate of change for the solution in the unheated chamber is clearly greater than that of the solution in the heated chamber.
+		\item At first the rate of change is the same between the two chambers, but the magnitude of the rate of change for the heated chamber quickly becomes greater than that of the unheated chamber.
+		\item The magnitude of the rate of change for the heated chamber is clearly greater during the first $30$ minutes of the experiment, but the rate of change appears nearly identical during the last $20$ minutes. % 
+		\item None of these. 
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+ The magnitude of the rate of change for the heated chamber is clearly greater during the first $30$ minutes of the experiment, but the rate of change appears nearly identical during the last $20$ minutes. % 
+
+\else
+\fi
+

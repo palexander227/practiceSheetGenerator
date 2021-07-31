@@ -1,0 +1,56 @@
+\begin{tikzpicture}
+\draw[<->](-2,0)--(2,0);
+\draw[<->](0,-2)--(0,2);
+\foreach \x in {-1.6,-1.2, -0.8,-0.4,0.4,0.8,1.2,1.6}
+{\draw (\x,0)node{$|$};}
+\foreach \x in {-1.6, -1.2, ...,2}
+{\draw(-.1,\x)--(.1,\x);}
+\draw(-1.2,2)parabola bend (0,-1.6)(1.2,2);
+\end{tikzpicture}
+
+$g(x)$ is one result when $f(x)=x^{2}-4$, shown above, is horizontally shifted.  If $g(7)=0$,
+which of the following could be the equation of $g(x)$?
+
+
+
+
+\ifsat
+	\begin{enumerate}[label=\Alph*)]
+		\item I only
+		\item II only
+		\item I and III only%
+		\item I, II, and III
+	\end{enumerate}
+\else
+\fi
+
+\ifacteven
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\setcounter{enumii}{5}
+		\item I only
+		\item II only
+		\item III only
+		\addtocounter{enumii}{1}
+		\item I and III only%
+		\item I, II, and III
+	\end{enumerate}
+\else
+\fi
+
+\ifactodd
+	\begin{enumerate}[label=\textbf{\Alph*.},itemsep=\fill,align=left]
+		\item I only
+		\item II only
+		\item III only
+		\item I and III only%
+		\item I, II, and III
+	\end{enumerate}
+\else
+\fi
+
+\ifgridin
+ I and III only%
+		
+\else
+\fi
+
